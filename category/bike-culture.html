@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-8421723631335894">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8421723631335894" crossorigin="anonymous"></script>
+  <title>Bike Culture — The World of Bicycles</title>
+  <meta name="description" content="Explore bike culture articles covering urban cycling communities, bicycle history, commuting lifestyle, and cycling traditions from around the world.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="site-logo">&#9881; The World of Bicycles</a>
+    <nav>
+      <button class="mobile-menu-btn" aria-label="Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="bike-culture.html" class="active">Bike Culture</a></li>
+        <li><a href="bike-maintenance.html">Bike Maintenance</a></li>
+        <li><a href="cycling-gear.html">Cycling Gear</a></li>
+        <li><a href="mountain-biking.html">Mountain Biking</a></li>
+        <li><a href="road-cycling.html">Road Cycling</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="category-nav">
+    <a href="bike-culture.html" class="active">Bike Culture</a>
+    <a href="bike-maintenance.html">Bike Maintenance</a>
+    <a href="cycling-gear.html">Cycling Gear</a>
+    <a href="mountain-biking.html">Mountain Biking</a>
+    <a href="road-cycling.html">Road Cycling</a>
+  </div>
+
+  <h2 class="section-title">Bike Culture</h2>
+  <p style="color:var(--gray-500);margin-bottom:32px;">From urban cycling communities and bike commuting to vintage bicycle revivals and the global language of cyclists — explore the culture that makes cycling more than just a sport.</p>
+
+  <div class="article-grid" id="article-grid"></div>
+  <div class="pagination" id="pagination"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <h3>The World of Bicycles</h3>
+      <p>Your trusted source for cycling knowledge since 2020. Every article is written by riders, for riders.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Categories</h3>
+      <ul>
+        <li><a href="bike-culture.html">Bike Culture</a></li>
+        <li><a href="bike-maintenance.html">Bike Maintenance</a></li>
+        <li><a href="cycling-gear.html">Cycling Gear</a></li>
+        <li><a href="mountain-biking.html">Mountain Biking</a></li>
+        <li><a href="road-cycling.html">Road Cycling</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>Info</h3>
+      <ul>
+        <li><a href="../about.html">About Us</a></li>
+        <li><a href="../author.html">Author</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2026 The World of Bicycles. All rights reserved.</p></div>
+</footer>
+
+<script src="../script.js"></script>
+<script>
+var articles = [{id:"a1b2c3d4-e001-4001-8001-000000000001",title:"The Rise of Urban Cycling Communities in 2026",category:"Bike Culture",date:"2026-06-15",image:"../images/article-bike-culture-1.webp",excerpt:"Urban cycling communities are growing faster than ever. From critical mass rides to bike co-ops, discover how city cyclists are building stronger, more connected communities."},{id:"a1b2c3d4-e002-4002-8002-000000000002",title:"How Cycling Culture Is Reshaping City Transportation",category:"Bike Culture",date:"2026-06-10",image:"../images/article-bike-culture-2.webp",excerpt:"Cities worldwide are investing billions in cycling infrastructure. Learn how bike lanes, shared paths, and bike-sharing programs are transforming urban mobility."},{id:"a1b2c3d4-e003-4003-8003-000000000003",title:"Bike Commuting: From Weekend Hobby to Daily Lifestyle",category:"Bike Culture",date:"2026-06-05",image:"../images/article-bike-culture-3.webp",excerpt:"Making the switch from weekend rides to daily bike commuting requires planning, the right gear, and a mindset shift. Here's how to make it work."},{id:"a1b2c3d4-e004-4004-8004-000000000004",title:"The Global Language of Cyclists: Hand Signals and Road Etiquette",category:"Bike Culture",date:"2026-05-30",image:"../images/article-bike-culture-4.webp",excerpt:"Hand signals, nods, and bell rings form a universal language among cyclists worldwide. Master this unspoken code to ride safer and connect with fellow riders."},{id:"a1b2c3d4-e005-4005-8005-000000000005",title:"Bicycle Cafes and the Third Wave of Cycling Culture",category:"Bike Culture",date:"2026-05-25",image:"../images/article-bike-culture-5.webp",excerpt:"Bicycle cafes are becoming the new social hubs for riders. These spaces combine coffee, repairs, and community events into one vibrant cycling destination."},{id:"a1b2c3d4-e006-4006-8006-000000000006",title:"How Social Media Changed Cycling Clubs Forever",category:"Bike Culture",date:"2026-05-20",image:"../images/article-bike-culture-6.webp",excerpt:"Strava, Instagram, and WhatsApp have fundamentally changed how cycling clubs organize, communicate, and grow. Is this digital shift helping or hurting real-world riding?"},{id:"a1b2c3d4-e007-4007-8007-000000000007",title:"The Revival of Vintage Bicycles in Modern Culture",category:"Bike Culture",date:"2026-05-15",image:"../images/article-bike-culture-7.webp",excerpt:"Steel frames, downtube shifters, and leather saddles are making a comeback. Why a new generation of cyclists is falling in love with vintage bicycles."}];
+
+function render() {
+  var grid = document.getElementById('article-grid');
+  var html = '';
+  articles.forEach(function(a) {
+    html += '<article class="article-card">';
+    html += '<div class="article-card-img"><img src="' + a.image + '" alt="' + a.title + '" loading="lazy"></div>';
+    html += '<div class="article-card-body">';
+    html += '<span class="article-card-category">' + a.category + '</span>';
+    html += '<h3><a href="../articles/' + a.id + '.html">' + a.title + '</a></h3>';
+    html += '<p class="article-card-meta">' + a.date + '</p>';
+    html += '<p>' + a.excerpt + '</p>';
+    html += '</div></article>';
+  });
+  grid.innerHTML = html;
+}
+render();
+</script>
+</body>
+</html>

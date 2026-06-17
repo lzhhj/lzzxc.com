@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-adsense-account" content="ca-pub-8421723631335894">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8421723631335894" crossorigin="anonymous"></script>
+  <title>Road Cycling — The World of Bicycles</title>
+  <meta name="description" content="Comprehensive road cycling guides covering century rides, power meters, group etiquette, aero vs lightweight bikes, nutrition, smart trainers, and Gran Fondo preparation.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a href="../index.html" class="site-logo">&#9881; The World of Bicycles</a>
+    <nav>
+      <button class="mobile-menu-btn" aria-label="Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="bike-culture.html">Bike Culture</a></li>
+        <li><a href="bike-maintenance.html">Bike Maintenance</a></li>
+        <li><a href="cycling-gear.html">Cycling Gear</a></li>
+        <li><a href="mountain-biking.html">Mountain Biking</a></li>
+        <li><a href="road-cycling.html" class="active">Road Cycling</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main-content">
+  <div class="category-nav">
+    <a href="bike-culture.html">Bike Culture</a>
+    <a href="bike-maintenance.html">Bike Maintenance</a>
+    <a href="cycling-gear.html">Cycling Gear</a>
+    <a href="mountain-biking.html">Mountain Biking</a>
+    <a href="road-cycling.html" class="active">Road Cycling</a>
+  </div>
+
+  <h2 class="section-title">Road Cycling</h2>
+  <p style="color:var(--gray-500);margin-bottom:32px;">Go faster and farther on the road. Our road cycling guides cover training, gear, nutrition, and event preparation to help you crush your next century ride or Gran Fondo.</p>
+
+  <div class="article-grid" id="article-grid"></div>
+  <div class="pagination" id="pagination"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner"><div class="footer-col"><h3>The World of Bicycles</h3><p>Your trusted source for cycling knowledge since 2020. Every article is written by riders, for riders.</p></div><div class="footer-col"><h3>Categories</h3><ul><li><a href="bike-culture.html">Bike Culture</a></li><li><a href="bike-maintenance.html">Bike Maintenance</a></li><li><a href="cycling-gear.html">Cycling Gear</a></li><li><a href="mountain-biking.html">Mountain Biking</a></li><li><a href="road-cycling.html">Road Cycling</a></li></ul></div><div class="footer-col"><h3>Info</h3><ul><li><a href="../about.html">About Us</a></li><li><a href="../author.html">Author</a></li><li><a href="../contact.html">Contact</a></li><li><a href="../privacy-policy.html">Privacy Policy</a></li></ul></div></div>
+  <div class="footer-bottom"><p>&copy; 2026 The World of Bicycles. All rights reserved.</p></div>
+</footer>
+
+<script src="../script.js"></script>
+<script>
+var articles = [{id:"e5f6g7h8-i001-8001-c001-000000000029",title:"Conquer 100 Miles: Road Cycling Training, Mindset, and Gear Tips",category:"Road Cycling",date:"2026-06-11",image:"../images/article-road-cycling-1.webp",excerpt:"A century ride is as much mental as physical. Our comprehensive guide covers training plans, nutrition strategies, and gear essentials for your first 100-mile ride."},{id:"e5f6g7h8-i002-8002-c002-000000000030",title:"Understanding Cycling Power Meters: Watts, Zones, and Training",category:"Road Cycling",date:"2026-06-06",image:"../images/article-road-cycling-2.webp",excerpt:"Power meters have revolutionized cycling training. Learn how watts, functional threshold power, and training zones work together to make you a faster, stronger rider."},{id:"e5f6g7h8-i003-8003-c003-000000000031",title:"Group Riding Etiquette: Rules Every Road Cyclist Should Know",category:"Road Cycling",date:"2026-06-01",image:"../images/article-road-cycling-3.webp",excerpt:"Nothing frustrates experienced riders more than bad group etiquette. Master the unwritten rules of pacelines, rotating pulls, and communication to ride safely in any group."},{id:"e5f6g7h8-i004-8004-c004-000000000032",title:"Aero vs Lightweight: Which Road Bike Philosophy Is Right for You",category:"Road Cycling",date:"2026-05-26",image:"../images/article-road-cycling-4.webp",excerpt:"The aero vs lightweight debate splits the road cycling world. We analyze wind tunnel data, real-world testing, and riding scenarios to help you choose the right bike."},{id:"e5f6g7h8-i005-8005-c005-000000000033",title:"Nutrition Strategies for Long-Distance Road Cycling",category:"Road Cycling",date:"2026-05-21",image:"../images/article-road-cycling-5.webp",excerpt:"Bonking on a long ride is miserable and avoidable. Learn the science of cycling nutrition, including carb loading, on-bike fueling, and recovery strategies."},{id:"e5f6g7h8-i006-8006-c006-000000000034",title:"Indoor Cycling Trainers: Smart Trainer Comparison Guide 2026",category:"Road Cycling",date:"2026-05-16",image:"../images/article-road-cycling-6.webp",excerpt:"Smart trainers have transformed indoor cycling. Compare Wahoo KICKR, Tacx Neo, Elite Direto, and Saris H3 on accuracy, noise, and Zwift compatibility."},{id:"e5f6g7h8-i007-8007-c007-000000000035",title:"How to Prepare for Your First Gran Fondo",category:"Road Cycling",date:"2026-05-11",image:"../images/article-road-cycling-7.webp",excerpt:"A Gran Fondo is the ultimate celebration of road cycling. From registration to post-ride recovery, here's everything you need to know to prepare for your first event."}];
+function render() {var grid = document.getElementById('article-grid');var html = '';articles.forEach(function(a) {html += '<article class="article-card"><div class="article-card-img"><img src="' + a.image + '" alt="' + a.title + '" loading="lazy"></div><div class="article-card-body"><span class="article-card-category">' + a.category + '</span><h3><a href="../articles/' + a.id + '.html">' + a.title + '</a></h3><p class="article-card-meta">' + a.date + '</p><p>' + a.excerpt + '</p></div></article>';});grid.innerHTML = html;}
+render();
+</script>
+</body>
+</html>

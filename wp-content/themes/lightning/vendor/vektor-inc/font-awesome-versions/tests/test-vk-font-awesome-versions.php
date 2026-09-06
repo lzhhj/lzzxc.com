@@ -1,0 +1,184 @@
+<?php
+use VektorInc\VK_Font_Awesome_Versions\VkFontAwesomeVersions;
+
+class VkFontAwesomeVersionsTest extends WP_UnitTestCase {
+
+	/**
+	 * Test get_icon_tag() method
+	 *
+	 * @return void
+	 */
+	function test_get_icon_tag() {
+
+		$tests = array(
+			array(
+				'option_fa_version' => '7_WebFonts_CSS',
+				'saved_value'       => 'far fa-file-alt',
+				'correct'           => '<i class="far fa-file-alt"></i>',
+			),
+			array(
+				'option_fa_version' => '7_WebFonts_CSS',
+				'saved_value'       => '<i class="far fa-file-alt"></i>',
+				'correct'           => '<i class="far fa-file-alt"></i>',
+			),
+			array(
+				'option_fa_version' => '7_WebFonts_CSS',
+				'saved_value'       => 'far fa-file-alt',
+				'additional_class'  => 'test-class',
+				'correct'           => '<i class="far fa-file-alt test-class"></i>',
+			),
+			array(
+				'option_fa_version' => '7_WebFonts_CSS',
+				'saved_value'       => '<i class="far fa-file-alt"></i>',
+				'additional_class'  => 'test-class',
+				'correct'           => '<i class="far fa-file-alt test-class"></i>',
+			),
+		);
+
+		foreach ( $tests as $key => $value ) {
+			$options = array(
+				'version'       => $value['option_fa_version'],
+				'compatibility' => array(
+					'v4' => false,
+					'v5' => false,
+				),
+			);
+			update_option( 'vk_font_awesome_options', $options );
+			if ( ! empty( $value['additional_class'] ) ) {
+				$return = VkFontAwesomeVersions::get_icon_tag( $value['saved_value'], $value['additional_class'] );
+			} else {
+				$return = VkFontAwesomeVersions::get_icon_tag( $value['saved_value'] );
+			}
+			$this->assertEquals( $value['correct'], $return );
+		}
+	}
+
+	function test_get_directory_uri() {
+		// WP_PLUGIN_DIR / WPMU_PLUGIN_DIR / テーマルート / WP_CONTENT_DIR それぞれのパスから正しい URL が生成されることを確認する.
+		$tests = array(
+			// WP_PLUGIN_DIR 配下（プラグインの vendor ディレクトリ）.
+			array(
+				'path'    => WP_PLUGIN_DIR . '/vk-blocks/vendor/vektor-inc/font-awesome-versions/src',
+				'correct' => plugins_url() . '/vk-blocks/vendor/vektor-inc/font-awesome-versions/src/',
+			),
+			// WPMU_PLUGIN_DIR 配下（mu-plugin の vendor ディレクトリ）.
+			array(
+				'path'    => WPMU_PLUGIN_DIR . '/vk-blocks/vendor/vektor-inc/font-awesome-versions/src',
+				'correct' => WPMU_PLUGIN_URL . '/vk-blocks/vendor/vektor-inc/font-awesome-versions/src/',
+			),
+			// テーマルート配下（テーマの vendor ディレクトリ）.
+			array(
+				'path'    => get_theme_root() . '/lightning-pro/vendor/vektor-inc/font-awesome-versions/src',
+				'correct' => get_theme_root_uri() . '/lightning-pro/vendor/vektor-inc/font-awesome-versions/src/',
+			),
+			// WP_CONTENT_DIR 配下（その他のディレクトリ）.
+			array(
+				'path'    => WP_CONTENT_DIR . '/libraries/vektor-inc/font-awesome-versions/src',
+				'correct' => content_url() . '/libraries/vektor-inc/font-awesome-versions/src/',
+			),
+			// ディレクトリ名が前方一致で誤マッチしないことを確認する.
+			// 例: /wp-content/plugins-extra は /wp-content/plugins にマッチしてはいけない.
+			array(
+				'path'    => WP_PLUGIN_DIR . '-extra/some-plugin/vendor/vektor-inc/font-awesome-versions/src',
+				'correct' => content_url() . '/plugins-extra/some-plugin/vendor/vektor-inc/font-awesome-versions/src/',
+			),
+			// どのディレクトリにもマッチしないパスは空文字を返す.
+			array(
+				'path'    => '/opt/custom/path/vektor-inc/font-awesome-versions/src',
+				'correct' => '',
+			),
+		);
+		foreach ( $tests as $key => $value ) {
+			$return = VkFontAwesomeVersions::get_directory_uri( $value['path'] );
+			$this->assertEquals( $value['correct'], $return );
+		}
+	}
+
+	function test_get_option_fa() {
+		$tests = array(
+			array(
+				'option_fa_version' => '4.7',
+				'correct'           => array(
+					'version'       => '7_WebFonts_CSS',
+					'compatibility' => array(
+						'v4' => true,
+						'v5' => false,
+					),
+				),
+			),
+			array(
+				'option_fa_version' => '5.0_WebFonts_CSS',
+				'correct'           => array(
+					'version'       => '7_WebFonts_CSS',
+					'compatibility' => array(
+						'v4' => false,
+						'v5' => true,
+					),
+				),
+			),
+			array(
+				'option_fa_version' => '5.0_SVG_JS',
+				'correct'           => array(
+					'version'       => '7_SVG_JS',
+					'compatibility' => array(
+						'v4' => false,
+						'v5' => true,
+					),
+				),
+			),
+			array(
+				'option_fa_version' => '5_WebFonts_CSS',
+				'correct'           => array(
+					'version'       => '7_WebFonts_CSS',
+					'compatibility' => array(
+						'v4' => false,
+						'v5' => true,
+					),
+				),
+			),
+			array(
+				'option_fa_version' => '5_SVG_JS',
+				'correct'           => array(
+					'version'       => '7_SVG_JS',
+					'compatibility' => array(
+						'v4' => false,
+						'v5' => true,
+					),
+				),
+			),
+			array(
+				'option_fa_version' => '6_WebFonts_CSS',
+				'correct'           => array(
+					'version'       => '7_WebFonts_CSS',
+					'compatibility' => array(
+						'v4' => false,
+						'v5' => false,
+					),
+				),
+			),
+			array(
+				'option_fa_version' => '6_SVG_JS',
+				'correct'           => array(
+					'version'       => '7_SVG_JS',
+					'compatibility' => array(
+						'v4' => false,
+						'v5' => false,
+					),
+				),
+			),
+		);
+
+		foreach ( $tests as $key => $value ) {
+			$options = array(
+				'version'       => $value['option_fa_version'],
+				'compatibility' => array(
+					'v4' => false,
+					'v5' => false,
+				),
+			);
+			update_option( 'vk_font_awesome_options', $options );
+			$return = VkFontAwesomeVersions::get_option_fa();
+			$this->assertEquals( $value['correct'], $return );
+		}
+	}
+}

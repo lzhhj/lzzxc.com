@@ -1,0 +1,22 @@
+{
+	"scripts": {
+		"wp-env": "wp-env",
+		"update": "ncu -u --target=minor && rm -rf node_modules && npm install",
+		"upgrade": "ncu -u --target=latest && rm -rf node_modules && npm install",
+		"build": "gulp copy_fa && npm run translate",
+		"translate": "wp i18n make-pot --skip-js . src/languages/font-awesome-versions.pot",
+		"lint": "npm run format:php && npm run lint:php && npm run lint:js",
+		"lint:js": "wp-scripts format . && wp-scripts lint-js . --fix",
+		"lint:php": "composer lint",
+		"format:php": "composer format",
+		"phpunit": "composer install && wp-env run tests-cli --env-cwd='wp-content/plugins/vk-font-awesome-versions' vendor/bin/phpunit -c .phpunit.xml --verbose"
+	},
+	"devDependencies": {
+		"@fortawesome/fontawesome-free": "^7.1.0",
+		"@wordpress/env": "^10.32.0",
+		"gulp": "4.0.2",
+		"gulp-replace": "^1.1.4",
+		"npm-check-updates": "^19.0.0",
+		"@wordpress/scripts": "^30.25.0"
+	}
+}

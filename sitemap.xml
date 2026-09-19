@@ -6,6 +6,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.lzzxc.com/2026/09/19/uci-road-cycling-world-championships-2026-complete-schedule-course-details-and-top-contenders/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.lzzxc.com/2026/09/19/canyons-prototype-time-trial-bike-spotted-in-montreal-with-radical-wide-fork-design/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.lzzxc.com/2026/09/18/shimano-overhauls-road-pedal-platform-after-23-years-with-new-spd-slr-system/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
@@ -4001,6 +4013,11 @@
   </url>
   <url>
     <loc>https://www.lzzxc.com/category/flash-news/page/21/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.lzzxc.com/category/flash-news/page/22/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>

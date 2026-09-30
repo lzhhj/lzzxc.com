@@ -93,7 +93,7 @@
             "authors": [
                 {
                     "name": "Thomas Griffin",
-                    "homepage": "http://thomasgriffinmedia.com",
+                    "homepage": "http://thomasgriffinmedia.com/",
                     "role": "Developer"
                 },
                 {
@@ -108,7 +108,7 @@
                 }
             ],
             "description": "TGM Plugin Activation is a PHP library that allows you to easily require or recommend plugins for your WordPress themes (and plugins).",
-            "homepage": "http://tgmpluginactivation.com",
+            "homepage": "http://tgmpluginactivation.com/",
             "keywords": [
                 "activation",
                 "library",

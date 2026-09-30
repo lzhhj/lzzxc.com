@@ -6,6 +6,18 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.lzzxc.com/user-agreement/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.lzzxc.com/contact-us/</loc>
+    <lastmod>2026-09-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://www.lzzxc.com/2026/09/30/adidas-overhauls-freerider-mountain-bike-shoe-range-with-four-new-models-for-2027/</loc>
     <lastmod>2026-09-30</lastmod>
     <changefreq>monthly</changefreq>
@@ -1753,7 +1765,7 @@
   </url>
   <url>
     <loc>https://www.lzzxc.com/about-us/</loc>
-    <lastmod>2026-05-03</lastmod>
+    <lastmod>2026-09-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

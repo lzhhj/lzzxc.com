@@ -1,0 +1,164 @@
+/**
+ * Blogsy Tags Input Control - Stylesheet
+ *
+ * @package Blogsy
+ * @since 1.0.0
+ */
+
+/* Tags Container */
+.blogsy-tags-input-wrapper {
+    position: relative;
+}
+
+.blogsy-tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    padding: 6px;
+    min-height: 42px;
+    background: #fff;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    cursor: text;
+    transition: border-color 0.2s ease;
+}
+
+.blogsy-tags-container:hover {
+    border-color: #2271b1;
+}
+
+.blogsy-tags-container:focus-within {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: none;
+}
+
+/* Individual Tag */
+.blogsy-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 4px 8px;
+    background: #2271b1;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+    line-height: 1.4;
+    transition: all 0.2s ease;
+    animation: tagFadeIn 0.2s ease;
+}
+
+@keyframes tagFadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.blogsy-tag:hover {
+    background: #135e96;
+}
+
+.blogsy-tag-text {
+    flex: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+
+.blogsy-tag-remove {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin-left: 2px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    transition: background-color 0.2s ease;
+}
+
+.blogsy-tag-remove:hover {
+    background: rgba(255, 255, 255, 0.35);
+}
+
+/* Input Field */
+.control-section-default.open .customize-control .blogsy-tags-input-wrapper .blogsy-tags-container .blogsy-tags-input,
+.blogsy-tags-input-wrapper .blogsy-tags-container .blogsy-tags-input {
+    flex: 1;
+    margin-top: 0;
+}
+
+.blogsy-tags-input::placeholder {
+    color: #8c8f94;
+}
+
+/* Hidden Input */
+.blogsy-tags-value {
+    display: none;
+}
+
+/* Notice */
+.blogsy-tags-notice {
+    display: none;
+    position: absolute;
+    top: -30px;
+    left: 0;
+    padding: 4px 8px;
+    background: #d63638;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 12px;
+    white-space: nowrap;
+    z-index: 10;
+}
+
+.blogsy-tags-notice::after {
+    content: '';
+    position: absolute;
+    bottom: -4px;
+    left: 12px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #d63638;
+}
+
+/* Subtitle */
+.customize-control-subtitle {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-style: italic;
+    color: #646970;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .blogsy-tags-container {
+        gap: 8px;
+        padding: 8px;
+        min-height: 46px;
+    }
+
+    .blogsy-tag {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .blogsy-tags-input {
+        min-width: 140px;
+        font-size: 16px;
+    }
+}

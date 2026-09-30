@@ -1,0 +1,95 @@
+/* ==========================================================================
+*  Blogsy Customizer Preview styles.
+*  ========================================================================== */
+.customize-partial-edit-shortcut-blogname,
+.customize-partial-edit-shortcut-blogsy_footer_widgets_align_center,
+.customize-partial-edit-shortcut-blogsy_pyml_post_number,
+.customize-partial-edit-shortcut-blogsy_featured_links_column,
+.customize-partial-edit-shortcut-blogsy_featured_links_style,
+.customize-partial-edit-shortcut-blogsy_featured_category_column,
+.customize-partial-edit-shortcut-blogsy_featured_category_style,
+.customize-partial-edit-shortcut-blogsy_stories_max_inner_items,
+.customize-partial-edit-shortcut-blogsy_stories_elements,
+.customize-partial-edit-shortcut-blogsy_hero_slider_elements,
+.customize-partial-edit-shortcut-blogsy_ticker_category,
+.customize-partial-edit-shortcut-blogsy_ticker_elements,
+.customize-partial-edit-shortcut-blogsy_top_bar_widgets_align_center {
+    display: none !important;
+}
+
+.blogsy-hide-shortcuts .customize-partial-edit-shortcut {
+    display: none !important;
+}
+
+.customize-partial-edit-shortcut {
+    z-index: 999;
+}
+
+.customize-partial-edit-shortcut-blogsy_pyml_elements,
+.customize-partial-edit-shortcut-blogsy_featured_links,
+.customize-partial-edit-shortcut-blogsy_featured_category,
+.customize-partial-edit-shortcut-blogsy_stories_max_category,
+.customize-partial-edit-shortcut-blogsy_hero_slider_post_number,
+.customize-partial-edit-shortcut-blogsy_ticker_post_number,
+.customize-partial-edit-shortcut-blogsy_top_bar_widgets {
+    left: 50%;
+    top: 50%;
+}
+
+.customize-partial-edit-shortcut-blogsy_header_widgets {
+    top: 50%;
+    right: 12%;
+}
+
+.blogsy-social-icons .customize-partial-edit-shortcut {
+    top: 0;
+}
+
+.blogsy-social-icons .customize-partial-edit-shortcut button {
+    left: -20px;
+}
+
+.blogsy-primary-nav .customize-partial-edit-shortcut {
+    top: 12px;
+}
+
+.blogsy-primary-nav .customize-partial-edit-shortcut button {
+    left: -25px;
+}
+
+.customize-partial-edit-shortcut-blogsy_footer_layout {
+    top: 50%;
+    left: 35px;
+}
+
+.blogsy_home_section {
+    position: relative;
+}
+
+.blogsy_home_section::before {
+    transition: .3s ease;
+    z-index: 8;
+    position: absolute;
+    content: " ";
+    border: 2px dashed rgba(195, 195, 195, .5);
+    top: 20px;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    pointer-events: none;
+}
+
+.blogsy_home_section:hover::before {
+    border-color: #00a0d0;
+}
+
+.blogsy_home_section>.customize-partial-edit-shortcut {
+    left: 40px;
+    top: 8px;
+    z-index: 8;
+}
+
+[class*="elementor"] .customize-partial-edit-shortcut button,
+[class*="elementor"] .widget .customize-partial-edit-shortcut button {
+    padding: 3px;
+}

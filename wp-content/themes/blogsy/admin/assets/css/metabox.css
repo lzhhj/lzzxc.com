@@ -1,0 +1,73 @@
+/* Blogsy Metaboxes Custom Styles */
+.blogsy-metabox-fields {
+  margin: 0 -12px;
+  padding: 0 0 8px 0;
+}
+.blogsy-metabox-field {
+  margin: 0 0 18px 0;
+  padding: 10px 12px 12px 12px;
+  background: #f8f9fa;
+  border-radius: 6px;
+  border: 1px solid #e2e4e7;
+}
+.blogsy-metabox-field label {
+  font-weight: 500;
+  color: #222;
+}
+.blogsy-metabox-field input[type="text"],
+.blogsy-metabox-field textarea,
+.blogsy-metabox-field select {
+  margin-top: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.blogsy-metabox-field input[type=checkbox],
+.blogsy-metabox-field input[type=radio] {
+    width: 15px;
+    height: 15px;
+}
+.edit-post-meta-boxes-area .metabox-location-side .postbox input[type=checkbox]:checked,
+.blogsy-metabox-field input[type=checkbox]:checked {
+    background-color: #007bb7;
+    border-color: #007bb7;
+}
+.blogsy-metabox-field input[type=checkbox]:checked::before {
+    height: 15px;
+    width: 15px;
+    margin: -1px 0 0 -.15rem;
+    filter: invert(1) brightness(2);
+}
+.blogsy-metabox-field input[type=radio]:checked::before {
+    width: .7rem;
+    height: .7rem;
+    margin: .349rem;
+}
+.edit-post-meta-boxes-area .metabox-location-side .postbox input[type=checkbox]:before {
+  margin: -1px -1px;
+}
+.blogsy-metabox-field .description {
+  color: #666;
+  font-size: 12px;
+  margin: 6px 0 0 0;
+}
+.blogsy-metabox-field-heading {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 1.5em 0 0.5em 0;
+  font-size: 1.1em;
+  color: #333;
+}
+.blogsy-image-preview img,
+.blogsy-gallery-preview img {
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin: 0 6px 6px 0;
+  max-width: 80px;
+  max-height: 80px;
+}
+.blogsy-upload-image,
+.blogsy-upload-gallery {
+  margin-top: 8px;
+}
+

@@ -1,0 +1,3217 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Blogsy\n"
+"POT-Creation-Date: 2026-01-08 20:30+0530\n"
+"PO-Revision-Date: 2025-02-17 10:47+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/dashboard/admin.php:154
+msgid "Install"
+msgstr ""
+
+#: admin/dashboard/admin.php:155
+msgid "Installing..."
+msgstr ""
+
+#: admin/dashboard/admin.php:156
+msgid "Activating..."
+msgstr ""
+
+#: admin/dashboard/admin.php:157
+msgid "Deactivating..."
+msgstr ""
+
+#: admin/dashboard/admin.php:158
+msgid "Active"
+msgstr ""
+
+#: admin/dashboard/admin.php:159
+msgid "Retry"
+msgstr ""
+
+#: admin/dashboard/admin.php:160
+msgid "Please Wait..."
+msgstr ""
+
+#: admin/dashboard/admin.php:161
+msgid "Importing... Please Wait..."
+msgstr ""
+
+#: admin/dashboard/admin.php:162
+msgid "Currently processing: "
+msgstr ""
+
+#: admin/dashboard/admin.php:163
+msgid "Import"
+msgstr ""
+
+#: admin/dashboard/admin.php:164
+msgid "Import Demo"
+msgstr ""
+
+#: admin/dashboard/admin.php:165
+msgid ""
+"The demo importer is still working. Closing this window may result in failed "
+"import."
+msgstr ""
+
+#: admin/dashboard/admin.php:166
+msgid "Import Complete!"
+msgstr ""
+
+#: admin/dashboard/admin.php:167
+msgid "The demo has been imported."
+msgstr ""
+
+#: admin/dashboard/admin.php:167
+msgid "Visit site."
+msgstr ""
+
+#: admin/dashboard/admin.php:196 admin/dashboard/blogsy-dashboard.php:76
+msgid "Blogsy Theme"
+msgstr ""
+
+#: admin/dashboard/admin.php:239
+msgid "Customize"
+msgstr ""
+
+#: admin/dashboard/admin.php:240 admin/dashboard/admin.php:263
+#: admin/dashboard/blogsy-dashboard.php:219
+msgid "Help Articles"
+msgstr ""
+
+#: admin/dashboard/admin.php:264
+msgid "Follow on Facebook"
+msgstr ""
+
+#: admin/dashboard/admin.php:265
+msgid "Leave a Review"
+msgstr ""
+
+#. translators: %1$s <strong> tag, %2$s </strong> tag
+#: admin/dashboard/admin.php:309
+#, php-format
+msgid "Blogsy theme recommends the following plugins: %1$s."
+msgstr ""
+
+#: admin/dashboard/admin.php:320
+msgid "Install Now"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:87
+msgid "Plugins"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:101
+#: admin/dashboard/blogsy-dashboard.php:456
+msgid "Changelog"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:126
+msgid "Getting Started"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:133
+#: admin/dashboard/blogsy-dashboard.php:137
+msgid "Install Plugins"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:134
+msgid ""
+"Explore recommended plugins. These free plugins provide additional features "
+"and customization options."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:144
+msgid "Start with a Template"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:145
+msgid ""
+"Don&rsquo;t want to start from scratch? Import a pre-built demo website in 1-"
+"click and get a head start."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:152
+msgid "Activate Hester Core"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:157
+msgid "Install Hester Core"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:162
+msgid "Browse Demos"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:182
+msgid "Upload Your Logo"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:183
+msgid ""
+"Kick off branding your new site by uploading your logo. Simply upload your "
+"logo and customize as you need."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:186
+msgid "Upload Logo"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:193
+msgid "Change Menus"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:194
+msgid ""
+"Customize menu links and choose what&rsquo;s displayed in available theme "
+"menu locations."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:197
+msgid "Go to Menus"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:204
+#: admin/dashboard/blogsy-dashboard.php:208
+msgid "Change Colors"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:205
+msgid ""
+"Replace the default theme colors and make your website color scheme match "
+"your brand design."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:215 inc/customizer/settings.php:283
+msgid "Need Help?"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:216
+msgid ""
+"Head over to our site to learn more about the Blogsy theme, read help "
+"articles and get support."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:230
+msgid "Letâ€˜s customize your website"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:231
+msgid ""
+"There are many changes you can make to customize your website. Explore "
+"Blogsy customization options and make it unique."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:234
+msgid "Start Customizing"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:261
+#: admin/dashboard/blogsy-dashboard.php:450
+msgid "Recommended Plugins"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:273
+#: inc/customizer/ui/plugin-install-helper/class-blogsy-customizer-plugin-install-helper.php:121
+msgid "Deactivate"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:275
+msgid "Plugin activated"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:278
+#: inc/customizer/ui/plugin-install-helper/class-blogsy-customizer-plugin-install-helper.php:106
+#: inc/customizer/ui/plugin-install-helper/class-blogsy-customizer-plugin-install-helper.php:126
+msgid "Activate"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:283
+msgid "Install & Activate"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:332
+msgid "Changelog file not found."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:334
+msgid "Changelog file not readable."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:351
+msgid "Blogsy Theme Changelog"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:444 inc/starter-content.php:73
+msgid "About"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:479
+#: admin/dashboard/blogsy-dashboard.php:510
+msgid "Missing plugin data"
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:493
+msgid "Failed to activate plugin. Missing plugin data."
+msgstr ""
+
+#: admin/dashboard/blogsy-dashboard.php:523
+msgid "Failed to deactivate plugin. Missing plugin data."
+msgstr ""
+
+#: admin/dashboard/helpers.php:51
+msgid "Dismiss"
+msgstr ""
+
+#: admin/dashboard/helpers.php:239
+msgid "How to use"
+msgstr ""
+
+#: admin/meta-boxes.php:190
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:62
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:139
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:53
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:99
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:200
+msgid "Select Image"
+msgstr ""
+
+#: admin/meta-boxes.php:203
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:51
+msgid "Select Images"
+msgstr ""
+
+#: admin/meta-boxes.php:287 admin/meta-boxes.php:305
+msgid "Page Layout"
+msgstr ""
+
+#: admin/meta-boxes.php:294
+msgid "Disable Top Bar"
+msgstr ""
+
+#: admin/meta-boxes.php:299
+msgid "Header Layout"
+msgstr ""
+
+#: admin/meta-boxes.php:309 inc/common.php:526 inc/common.php:549
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:53
+#: inc/customizer/settings.php:934 inc/theme-setup.php:312
+msgid "Default"
+msgstr ""
+
+#: admin/meta-boxes.php:310
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/meta-boxes.php:311
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/meta-boxes.php:312 inc/customizer/settings.php:3587
+#: inc/customizer/settings.php:3601 inc/customizer/settings.php:3615
+#: inc/customizer/settings.php:3628 inc/customizer/settings.php:3640
+msgid "No Sidebar"
+msgstr ""
+
+#: admin/meta-boxes.php:313 inc/customizer/settings.php:3588
+#: inc/customizer/settings.php:3602
+msgid "No Sidebar + Narrow Content"
+msgstr ""
+
+#: admin/meta-boxes.php:329
+msgid "Page Card Style"
+msgstr ""
+
+#: admin/meta-boxes.php:336
+msgid "Disable Page Card Style"
+msgstr ""
+
+#: admin/meta-boxes.php:339
+msgid "Check to disable the page card style for this page."
+msgstr ""
+
+#: admin/meta-boxes.php:342
+msgid "Disable Page Title"
+msgstr ""
+
+#: admin/meta-boxes.php:345
+msgid "Check to disable the page title for this page."
+msgstr ""
+
+#: admin/meta-boxes.php:360
+msgid "Post Hero Section Settings"
+msgstr ""
+
+#: admin/meta-boxes.php:367
+msgid "Standard Post Format:"
+msgstr ""
+
+#: admin/meta-boxes.php:370
+msgid "Settings for standard post format"
+msgstr ""
+
+#: admin/meta-boxes.php:374
+msgid "Post Hero Layout"
+msgstr ""
+
+#: admin/utilities/plugin-utilities.php:85
+#: admin/utilities/plugin-utilities.php:140
+msgid "Current user can't activate plugins"
+msgstr ""
+
+#: admin/utilities/plugin-utilities.php:93
+#: admin/utilities/plugin-utilities.php:148
+msgid "Missing plugin data."
+msgstr ""
+
+#. translators: %s is plugin name.
+#: admin/utilities/plugin-utilities.php:108
+#, php-format
+msgid "Plugin %s is not installed."
+msgstr ""
+
+#. translators: %s is plugin name.
+#: admin/utilities/plugin-utilities.php:163
+#, php-format
+msgid "Plugin %s is not active."
+msgstr ""
+
+#: comments.php:46
+msgid "No Comment! Be the first one."
+msgstr ""
+
+#: comments.php:48
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:51 inc/customizer/settings.php:1814
+#: inc/customizer/settings.php:3739
+#: template-parts/post/hero/title-section.php:106
+msgid "Comments"
+msgstr ""
+
+#: comments.php:80
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:81
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:87
+msgid "Show Comments"
+msgstr ""
+
+#: comments.php:94
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:104
+msgid "Name"
+msgstr ""
+
+#: comments.php:105
+msgid "Email"
+msgstr ""
+
+#: comments.php:106
+msgid "Website"
+msgstr ""
+
+#: comments.php:114
+msgid "Comment"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: inc/breadcrumbs.php:24 inc/starter-content.php:53
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:102
+msgid "Search Results for"
+msgstr ""
+
+#: inc/breadcrumbs.php:107
+msgid "Nothing Found!"
+msgstr ""
+
+#. translators: %d is the layout number.
+#: inc/common.php:531
+#, php-format
+msgid "Layout %d"
+msgstr ""
+
+#: inc/common.php:552
+msgid "Disable"
+msgstr ""
+
+#. translators: %d is the layout number.
+#: inc/common.php:557
+#, php-format
+msgid "Header %d"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:44
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:128
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:604
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:771
+msgid "Top Left"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:45
+#: inc/customizer/settings.php:484 inc/customizer/settings.php:684
+#: inc/customizer/settings.php:1320 inc/customizer/settings.php:1661
+#: inc/customizer/settings.php:3551 inc/customizer/settings.php:3683
+msgid "Top"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:46
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:129
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:605
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:772
+msgid "Top Right"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:47
+#: inc/customizer/settings.php:487 inc/customizer/settings.php:687
+#: inc/customizer/settings.php:1211 inc/customizer/settings.php:1528
+#: inc/customizer/settings.php:1664 inc/customizer/settings.php:3585
+#: inc/customizer/settings.php:3599 inc/customizer/settings.php:3613
+#: inc/customizer/settings.php:3626 inc/customizer/settings.php:3638
+#: inc/customizer/settings.php:3686
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:48
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:49
+#: inc/customizer/settings.php:485 inc/customizer/settings.php:685
+#: inc/customizer/settings.php:1212 inc/customizer/settings.php:1529
+#: inc/customizer/settings.php:1662 inc/customizer/settings.php:3586
+#: inc/customizer/settings.php:3600 inc/customizer/settings.php:3614
+#: inc/customizer/settings.php:3627 inc/customizer/settings.php:3639
+#: inc/customizer/settings.php:3684
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:50
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:131
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:607
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:774
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:51
+#: inc/customizer/settings.php:486 inc/customizer/settings.php:686
+#: inc/customizer/settings.php:1321 inc/customizer/settings.php:1663
+#: inc/customizer/settings.php:3552 inc/customizer/settings.php:3685
+msgid "Bottom"
+msgstr ""
+
+#: inc/customizer/controls/alignment/class-blogsy-customizer-control-alignment.php:52
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:132
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:608
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:775
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:59
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:120
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:136
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:325
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:197
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:801
+msgid "No image selected"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:60
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:137
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:198
+msgid "Less Settings"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:61
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:131
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:138
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:337
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:199
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:813
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:118
+msgid "Advanced"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:63
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:140
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:201
+msgid "Use This Image"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:125
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:332
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:54
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:54
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:100
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:462
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:482
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:808
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:1023
+msgid "Remove"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:147
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:351
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:827
+msgid "No Repeat"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:148
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:352
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:828
+msgid "Repeat All"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:149
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:353
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:829
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:150
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:354
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:830
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:157
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:361
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:837
+msgid "Background Position"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:160
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:364
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:840
+#: inc/customizer/settings.php:1700
+msgid "Horizontal"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:178
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:383
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:860
+#: inc/customizer/settings.php:1701
+msgid "Vertical"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:199
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:405
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:883
+msgid "Background Size"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:202
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:408
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:886
+#: inc/customizer/settings.php:1702
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:205
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:411
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:889
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:208
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:414
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:892
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:215
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:421
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:899
+msgid "Background Attachment"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:218
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:424
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:902
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:128
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:132
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:154
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:161
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:168
+msgid "Inherit"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:221
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:427
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:905
+msgid "Scroll"
+msgstr ""
+
+#: inc/customizer/controls/background/class-blogsy-customizer-control-background.php:224
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:430
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:908
+msgid "Fixed"
+msgstr ""
+
+#: inc/customizer/controls/class-blogsy-customizer-control.php:56
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:238
+msgid "Desktop"
+msgstr ""
+
+#: inc/customizer/controls/class-blogsy-customizer-control.php:60
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:242
+msgid "Tablet"
+msgstr ""
+
+#: inc/customizer/controls/class-blogsy-customizer-control.php:64
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:246
+msgid "Mobile"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:103
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:110
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:118
+#: inc/customizer/settings.php:2769 inc/customizer/settings.php:2949
+msgid "Type"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:105
+msgid "X offset"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:106
+msgid "Y offset"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:107
+msgid "Blur"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:108
+msgid "Spread"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:109
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:130
+#: inc/customizer/settings.php:681 inc/customizer/settings.php:1317
+#: inc/customizer/settings.php:1658 inc/customizer/settings.php:3548
+#: inc/customizer/settings.php:3680
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:111
+msgid "Outset"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:112
+msgid "Inset"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:115
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:489
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:675
+msgid "Color 1"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:116
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:517
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:703
+msgid "Color 2"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:117
+msgid "Location"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:119
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:549
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:734
+msgid "Linear"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:120
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:550
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:735
+msgid "Radial"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:121
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:557
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:742
+msgid "Angle"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:122
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:579
+msgid "Position"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:124
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:600
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:767
+msgid "Center Center"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:125
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:601
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:768
+msgid "Center Left"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:126
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:602
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:769
+msgid "Center Right"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:127
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:603
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:770
+msgid "Top Center"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:130
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:606
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:773
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:143
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:981
+msgid "Solid"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:144
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:982
+msgid "Dotted"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:145
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:983
+msgid "Dashed"
+msgstr ""
+
+#: inc/customizer/controls/design-options/class-blogsy-customizer-control-design-options.php:438
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:916
+msgid "Overlay Color"
+msgstr ""
+
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:52
+msgid "Modify Gallery"
+msgstr ""
+
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:55
+msgid "No images selected"
+msgstr ""
+
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:56
+msgid "Select Gallery Images"
+msgstr ""
+
+#: inc/customizer/controls/gallery/class-blogsy-customizer-control-gallery.php:57
+msgid "Choose Images"
+msgstr ""
+
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:50
+msgid "Select or Upload Image"
+msgstr ""
+
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:51
+msgid "Use this image"
+msgstr ""
+
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:52
+#: inc/customizer/controls/image/class-blogsy-customizer-control-image.php:99
+msgid "Change Image"
+msgstr ""
+
+#: inc/customizer/controls/info/class-blogsy-customizer-control-info.php:103
+msgid "Learn More"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:124
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:312
+msgid "Item"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:190
+#: inc/customizer/settings.php:2799
+msgid "Add new item"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:408
+msgid "Select Link"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:463
+msgid "Add"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:463
+msgid "Change"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:495
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:524
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:682
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:710
+msgid "Color location"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:546
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:731
+msgid "Gradient type"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:647
+msgid "Background type"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:662
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:763
+msgid "Gradient position"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:810
+msgid "Select image"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:1025
+#: template-parts/header/widgets/popup-search-content.php:21
+msgid "Close"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:1047
+#: inc/customizer/customizer-helpers.php:55
+#: inc/customizer/widgets/class-blogsy-customizer-widget-search.php:43
+#: searchform.php:22 template-parts/header/widgets/popup-search-content.php:24
+msgid "Search"
+msgstr ""
+
+#: inc/customizer/controls/repeater/class-blogsy-customizer-control-repeater.php:1051
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/customizer/controls/spacing/class-blogsy-customizer-control-spacing.php:45
+msgid "Link values"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:119
+msgid "Font Family"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:120
+msgid "Languages"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:121
+msgid "Weight"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:122
+#: inc/customizer/widgets/class-blogsy-customizer-widget-socials.php:92
+msgid "Size"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:123
+#: inc/customizer/settings.php:680 inc/customizer/settings.php:1316
+#: inc/customizer/settings.php:1657 inc/customizer/settings.php:2302
+#: inc/customizer/settings.php:3547 inc/customizer/settings.php:3679
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:129
+#: inc/customizer/widgets/class-blogsy-customizer-widget-darkmode.php:61
+#: inc/customizer/widgets/class-blogsy-customizer-widget-search.php:62
+#: inc/customizer/widgets/class-blogsy-customizer-widget-socials.php:73
+msgid "Style"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:124
+msgid "Transform"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:125
+msgid "Decoration"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:126
+msgid "Line Height"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:127
+msgid "Letter Spacing"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:129
+msgid "Default System Font"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:133
+msgid "Thin 100"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:134
+msgid "Thin 100 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:135
+msgid "Extra-Thin 200"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:136
+msgid "Extra-Thin 200 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:137
+msgid "Light 300"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:138
+msgid "Light 300 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:139
+msgid "Normal 400"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:140
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:141
+msgid "Medium 500"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:142
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:143
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:144
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:145
+msgid "Bold 700"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:146
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:147
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:148
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:149
+msgid "Black 900"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:150
+msgid "Black 900 Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:155
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:156
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:157
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:158
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:165
+msgid "None"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:162
+msgid "Underline"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:163
+msgid "Overline"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:164
+msgid "Line Through"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:169
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:170
+msgid "Italic"
+msgstr ""
+
+#: inc/customizer/controls/typography/class-blogsy-customizer-control-typography.php:171
+msgid "Oblique"
+msgstr ""
+
+#: inc/customizer/controls/widget/class-blogsy-customizer-control-widget.php:160
+msgid "Add Widget"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:49 inc/customizer/settings.php:1989
+#: inc/customizer/settings.php:2152 inc/customizer/settings.php:2549
+#: inc/customizer/settings.php:2896 inc/customizer/settings.php:3071
+#: inc/customizer/settings.php:3149
+msgid "Home Page"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:52 inc/customizer/settings.php:1990
+#: inc/customizer/settings.php:2155 inc/customizer/settings.php:2552
+#: inc/customizer/settings.php:2897 inc/customizer/settings.php:3072
+#: inc/customizer/settings.php:3152
+msgid "Blog / Posts Page"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:58
+msgid "Archive"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:59
+msgid "Dynamic pages such as categories, tags, custom taxonomies..."
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:62 inc/customizer/settings.php:94
+#: inc/customizer/settings.php:952 inc/customizer/settings.php:1993
+#: inc/customizer/settings.php:2164 inc/customizer/settings.php:2561
+#: inc/customizer/settings.php:2900 inc/customizer/settings.php:3075
+#: inc/customizer/settings.php:3161
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:65
+msgid "Single Page"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:100
+msgid "Hide On Desktop"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:103
+msgid "Hide On Tablet"
+msgstr ""
+
+#: inc/customizer/customizer-helpers.php:106
+msgid "Hide On Mobile"
+msgstr ""
+
+#: inc/customizer/customizer.php:154
+msgid "Logos &amp; Site Title"
+msgstr ""
+
+#: inc/customizer/customizer.php:158
+msgid "Upload your logo image here."
+msgstr ""
+
+#: inc/customizer/customizer.php:176
+msgid "Enter the name of your site here."
+msgstr ""
+
+#: inc/customizer/customizer.php:183
+msgid ""
+"A tagline is a short phrase, or sentence, used to convey the essence of the "
+"site."
+msgstr ""
+
+#: inc/customizer/customizer.php:492
+msgid "Select a category"
+msgstr ""
+
+#: inc/customizer/options.php:338
+msgid "Daily News"
+msgstr ""
+
+#: inc/customizer/options.php:389
+msgid "Featured Categories"
+msgstr ""
+
+#: inc/customizer/options.php:427 inc/customizer/settings.php:229
+#: inc/customizer/settings.php:2976
+msgid "Featured Links"
+msgstr ""
+
+#: inc/customizer/options.php:465
+msgid "Top Stories"
+msgstr ""
+
+#: inc/customizer/options.php:466 inc/customizer/settings.php:2508
+msgid "View All Stories"
+msgstr ""
+
+#: inc/customizer/options.php:483
+msgid "You May Have Missed"
+msgstr ""
+
+#: inc/customizer/options.php:582
+msgid "Share Article"
+msgstr ""
+
+#: inc/customizer/options.php:586
+msgid "Other Articles"
+msgstr ""
+
+#: inc/customizer/options.php:631 inc/customizer/settings.php:1841
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/settings.php:90 inc/customizer/settings.php:162
+msgid "General"
+msgstr ""
+
+#: inc/customizer/settings.php:108
+msgid "General Options"
+msgstr ""
+
+#: inc/customizer/settings.php:113 inc/customizer/settings.php:1696
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/settings.php:119
+msgid "Styling"
+msgstr ""
+
+#: inc/customizer/settings.php:125
+msgid "Category Color"
+msgstr ""
+
+#: inc/customizer/settings.php:131 inc/customizer/settings.php:525
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer/settings.php:137
+msgid "Misc Settings"
+msgstr ""
+
+#: inc/customizer/settings.php:144
+msgid "Top Bar"
+msgstr ""
+
+#: inc/customizer/settings.php:150
+msgid "Header"
+msgstr ""
+
+#: inc/customizer/settings.php:156
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/settings.php:168
+msgid "Hero Layout"
+msgstr ""
+
+#: inc/customizer/settings.php:175
+msgid "Blog Page / Archive"
+msgstr ""
+
+#: inc/customizer/settings.php:181 inc/theme-setup.php:560
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer/settings.php:187 inc/customizer/settings.php:3859
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/customizer/settings.php:193 inc/customizer/settings.php:3808
+msgid "Dark Mode"
+msgstr ""
+
+#: inc/customizer/settings.php:199
+msgid "Home Sections"
+msgstr ""
+
+#: inc/customizer/settings.php:205
+msgid "Ticker"
+msgstr ""
+
+#: inc/customizer/settings.php:211
+msgid "Hero"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: inc/customizer/settings.php:217
+msgid "Stories"
+msgstr ""
+
+#: inc/customizer/settings.php:223 inc/customizer/settings.php:2795
+#: inc/customizer/settings.php:2796
+msgid "Featured Category"
+msgstr ""
+
+#: inc/customizer/settings.php:235
+msgid "Posts You Might Like"
+msgstr ""
+
+#: inc/customizer/settings.php:241
+msgid "Advertisement"
+msgstr ""
+
+#: inc/customizer/settings.php:247
+msgid "Privacy Notice"
+msgstr ""
+
+#: inc/customizer/settings.php:253
+msgid "Credentials"
+msgstr ""
+
+#: inc/customizer/settings.php:258
+msgid "Performance"
+msgstr ""
+
+#: inc/customizer/settings.php:264
+msgid "Translate"
+msgstr ""
+
+#: inc/customizer/settings.php:270
+msgid "Core"
+msgstr ""
+
+#: inc/customizer/settings.php:276
+msgid "Need more features?"
+msgstr ""
+
+#: inc/customizer/settings.php:278
+msgid "Upgrade to pro"
+msgstr ""
+
+#: inc/customizer/settings.php:285
+msgid "See the docs"
+msgstr ""
+
+#: inc/customizer/settings.php:356
+msgid "Site Width"
+msgstr ""
+
+#: inc/customizer/settings.php:357
+msgid "Choose the site width."
+msgstr ""
+
+#: inc/customizer/settings.php:378
+msgid "Retina Logo"
+msgstr ""
+
+#: inc/customizer/settings.php:379
+msgid ""
+"Upload exactly 2x the size of your default logo to make your logo crisp on "
+"HiDPI screens. This options is not required if logo above is in SVG format."
+msgstr ""
+
+#: inc/customizer/settings.php:384 inc/customizer/settings.php:412
+#: inc/customizer/settings.php:433
+msgid "Select logo"
+msgstr ""
+
+#: inc/customizer/settings.php:385 inc/customizer/settings.php:413
+#: inc/customizer/settings.php:434
+msgid "Select"
+msgstr ""
+
+#: inc/customizer/settings.php:406
+msgid "Dark Mode Logo"
+msgstr ""
+
+#: inc/customizer/settings.php:407
+msgid "Upload light logo for dark mode."
+msgstr ""
+
+#: inc/customizer/settings.php:427
+msgid "Dark Mode Retina Logo"
+msgstr ""
+
+#: inc/customizer/settings.php:428
+msgid ""
+"Upload exactly 2x the size of your dark mode logo to make your logo crisp on "
+"HiDPI screens. This options is not required if logo above is in SVG format."
+msgstr ""
+
+#: inc/customizer/settings.php:456
+msgid "Logo Height"
+msgstr ""
+
+#: inc/customizer/settings.php:457
+msgid "Maximum logo image height."
+msgstr ""
+
+#: inc/customizer/settings.php:479
+msgid "Logo Margin"
+msgstr ""
+
+#: inc/customizer/settings.php:480
+msgid "Specify spacing around logo. Negative values are allowed."
+msgstr ""
+
+#: inc/customizer/settings.php:498
+msgid "Display Tagline"
+msgstr ""
+
+#: inc/customizer/settings.php:514
+msgid "Site Identity"
+msgstr ""
+
+#: inc/customizer/settings.php:542
+msgid "Site Title"
+msgstr ""
+
+#: inc/customizer/settings.php:564
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/customizer/settings.php:595 inc/customizer/settings.php:2813
+#: inc/customizer/settings.php:2993
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/settings.php:602
+msgid "Second Color"
+msgstr ""
+
+#: inc/customizer/settings.php:609
+msgid "Body Background Color"
+msgstr ""
+
+#: inc/customizer/settings.php:616
+msgid "Body Font Color"
+msgstr ""
+
+#: inc/customizer/settings.php:623
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer/settings.php:630
+msgid "Button Background Hover"
+msgstr ""
+
+#: inc/customizer/settings.php:636
+msgid "Button Shape"
+msgstr ""
+
+#: inc/customizer/settings.php:638
+msgid "Circle"
+msgstr ""
+
+#: inc/customizer/settings.php:639
+msgid "Round"
+msgstr ""
+
+#: inc/customizer/settings.php:640
+msgid "Smooth"
+msgstr ""
+
+#: inc/customizer/settings.php:641
+msgid "Sharp"
+msgstr ""
+
+#: inc/customizer/settings.php:650
+msgid "Card Design Options"
+msgstr ""
+
+#: inc/customizer/settings.php:662 inc/customizer/settings.php:3662
+msgid "Box Shadow"
+msgstr ""
+
+#: inc/customizer/settings.php:682 inc/customizer/settings.php:1318
+#: inc/customizer/settings.php:1659 inc/customizer/settings.php:3549
+#: inc/customizer/settings.php:3681
+msgid "Width (px)"
+msgstr ""
+
+#: inc/customizer/settings.php:691 inc/customizer/settings.php:1313
+#: inc/customizer/settings.php:1653 inc/customizer/settings.php:3543
+#: inc/customizer/settings.php:3690
+msgid "Border"
+msgstr ""
+
+#: inc/customizer/settings.php:707 inc/customizer/settings.php:3705
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/settings.php:752
+msgid "Base Font Size"
+msgstr ""
+
+#: inc/customizer/settings.php:753
+msgid "REM base of the root (html) element. ( 62.5 Ã— 16 ) / 100  = 10px"
+msgstr ""
+
+#: inc/customizer/settings.php:765
+msgid "Body & Content"
+msgstr ""
+
+#: inc/customizer/settings.php:772
+msgid "Body"
+msgstr ""
+
+#: inc/customizer/settings.php:773
+msgid "Customize the body font"
+msgstr ""
+
+#: inc/customizer/settings.php:787
+msgid "HEADINGS (H1 - H6)"
+msgstr ""
+
+#: inc/customizer/settings.php:793
+msgid "Heading 1"
+msgstr ""
+
+#: inc/customizer/settings.php:794
+msgid "Customize the H1 font"
+msgstr ""
+
+#: inc/customizer/settings.php:808
+msgid "Heading 2"
+msgstr ""
+
+#: inc/customizer/settings.php:809
+msgid "Customize the H2 font"
+msgstr ""
+
+#: inc/customizer/settings.php:822
+msgid "Heading 3"
+msgstr ""
+
+#: inc/customizer/settings.php:823
+msgid "Customize the H3 font"
+msgstr ""
+
+#: inc/customizer/settings.php:836
+msgid "Heading 4"
+msgstr ""
+
+#: inc/customizer/settings.php:837
+msgid "Customize the H4 font"
+msgstr ""
+
+#: inc/customizer/settings.php:850
+msgid "Heading 5"
+msgstr ""
+
+#: inc/customizer/settings.php:851
+msgid "Customize the H5 font"
+msgstr ""
+
+#: inc/customizer/settings.php:864
+msgid "Heading 6"
+msgstr ""
+
+#: inc/customizer/settings.php:865
+msgid "Customize the H6 font"
+msgstr ""
+
+#: inc/customizer/settings.php:879 inc/customizer/settings.php:930
+msgid "Section/Widgets Heading"
+msgstr ""
+
+#: inc/customizer/settings.php:886
+msgid "Custom Section Heading"
+msgstr ""
+
+#: inc/customizer/settings.php:908
+msgid "Default Footer/Sidebar Heading"
+msgstr ""
+
+#: inc/customizer/settings.php:935 inc/theme-setup.php:317
+msgid "Style 1"
+msgstr ""
+
+#: inc/customizer/settings.php:936 inc/theme-setup.php:321
+msgid "Style 2"
+msgstr ""
+
+#: inc/customizer/settings.php:959
+msgid "Single Post Title"
+msgstr ""
+
+#: inc/customizer/settings.php:976
+msgid "Single Post Content"
+msgstr ""
+
+#: inc/customizer/settings.php:994 inc/customizer/settings.php:1001
+msgid "Terms"
+msgstr ""
+
+#: inc/customizer/settings.php:1024 inc/customizer/settings.php:1031
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/settings.php:1064
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/customizer/settings.php:1065
+msgid "Enable or disable sticky sidebar."
+msgstr ""
+
+#: inc/customizer/settings.php:1072
+msgid "Site Preloader"
+msgstr ""
+
+#: inc/customizer/settings.php:1073
+msgid "Enable or disable site preloader."
+msgstr ""
+
+#: inc/customizer/settings.php:1080
+msgid "Smooth Scroll"
+msgstr ""
+
+#: inc/customizer/settings.php:1081
+msgid "Enable or disable smooth scroll."
+msgstr ""
+
+#: inc/customizer/settings.php:1088
+msgid "Full Size Gif Images"
+msgstr ""
+
+#: inc/customizer/settings.php:1089
+msgid "Enable or disable full size gif images."
+msgstr ""
+
+#: inc/customizer/settings.php:1096
+msgid "Cursor Effect"
+msgstr ""
+
+#: inc/customizer/settings.php:1097
+msgid "Enable or disable cursor effect."
+msgstr ""
+
+#: inc/customizer/settings.php:1114
+msgid "Enable Top Bar"
+msgstr ""
+
+#: inc/customizer/settings.php:1115
+msgid "Top Bar is a section with widgets located above Main Header area."
+msgstr ""
+
+#: inc/customizer/settings.php:1122 inc/customizer/settings.php:1964
+#: inc/customizer/settings.php:2126 inc/customizer/settings.php:2523
+#: inc/customizer/settings.php:2871 inc/customizer/settings.php:3046
+#: inc/customizer/settings.php:3123
+msgid "Device Visibility"
+msgstr ""
+
+#: inc/customizer/settings.php:1123
+msgid "Devices where the Top Bar is displayed."
+msgstr ""
+
+#: inc/customizer/settings.php:1125 inc/customizer/settings.php:1215
+#: inc/customizer/settings.php:1532 inc/customizer/settings.php:1967
+#: inc/customizer/settings.php:2129 inc/customizer/settings.php:2526
+#: inc/customizer/settings.php:2874 inc/customizer/settings.php:3049
+#: inc/customizer/settings.php:3126 inc/customizer/settings.php:3360
+msgid "Show on All Devices"
+msgstr ""
+
+#: inc/customizer/settings.php:1126 inc/customizer/settings.php:1216
+#: inc/customizer/settings.php:1533 inc/customizer/settings.php:1968
+#: inc/customizer/settings.php:2130 inc/customizer/settings.php:2527
+#: inc/customizer/settings.php:2875 inc/customizer/settings.php:3050
+#: inc/customizer/settings.php:3127 inc/customizer/settings.php:3361
+msgid "Hide on Mobile"
+msgstr ""
+
+#: inc/customizer/settings.php:1127 inc/customizer/settings.php:1217
+#: inc/customizer/settings.php:1534 inc/customizer/settings.php:1969
+#: inc/customizer/settings.php:2131 inc/customizer/settings.php:2528
+#: inc/customizer/settings.php:2876 inc/customizer/settings.php:3051
+#: inc/customizer/settings.php:3128 inc/customizer/settings.php:3362
+msgid "Hide on Tablet"
+msgstr ""
+
+#: inc/customizer/settings.php:1128 inc/customizer/settings.php:1218
+#: inc/customizer/settings.php:1535 inc/customizer/settings.php:1970
+#: inc/customizer/settings.php:2132 inc/customizer/settings.php:2529
+#: inc/customizer/settings.php:2877 inc/customizer/settings.php:3052
+#: inc/customizer/settings.php:3129 inc/customizer/settings.php:3363
+msgid "Hide on Mobile and Tablet"
+msgstr ""
+
+#: inc/customizer/settings.php:1144 inc/customizer/settings.php:1185
+msgid "Top Bar Widgets"
+msgstr ""
+
+#: inc/customizer/settings.php:1145
+msgid "Click the Add Widget button to add available widgets to your Top Bar."
+msgstr ""
+
+#: inc/customizer/settings.php:1159 inc/customizer/settings.php:3436
+msgid "Center Widget Content"
+msgstr ""
+
+#: inc/customizer/settings.php:1196 inc/customizer/settings.php:1510
+msgid "Minimal"
+msgstr ""
+
+#: inc/customizer/settings.php:1197
+msgid "Rounded"
+msgstr ""
+
+#: inc/customizer/settings.php:1198 inc/customizer/settings.php:1511
+msgid "Minimal Fill"
+msgstr ""
+
+#: inc/customizer/settings.php:1199 inc/customizer/settings.php:1513
+msgid "Rounded Fill"
+msgstr ""
+
+#: inc/customizer/settings.php:1200 inc/customizer/settings.php:1512
+msgid "Rounded Border"
+msgstr ""
+
+#: inc/customizer/settings.php:1203 inc/customizer/settings.php:1516
+msgid "Small"
+msgstr ""
+
+#: inc/customizer/settings.php:1204 inc/customizer/settings.php:1517
+msgid "Standard"
+msgstr ""
+
+#: inc/customizer/settings.php:1205 inc/customizer/settings.php:1518
+msgid "Large"
+msgstr ""
+
+#: inc/customizer/settings.php:1206 inc/customizer/settings.php:1519
+msgid "Extra Large"
+msgstr ""
+
+#: inc/customizer/settings.php:1245 inc/customizer/settings.php:1581
+#: inc/customizer/settings.php:3473 inc/customizer/settings.php:3650
+msgid "Design Options"
+msgstr ""
+
+#: inc/customizer/settings.php:1260 inc/customizer/settings.php:1597
+#: inc/customizer/settings.php:3488
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/settings.php:1263 inc/customizer/settings.php:1601
+#: inc/customizer/settings.php:3492
+msgid "Solid Color"
+msgstr ""
+
+#: inc/customizer/settings.php:1264 inc/customizer/settings.php:1602
+#: inc/customizer/settings.php:3493
+msgid "Gradient"
+msgstr ""
+
+#: inc/customizer/settings.php:1286 inc/customizer/settings.php:1624
+#: inc/customizer/settings.php:3516
+msgid "Font Color"
+msgstr ""
+
+#: inc/customizer/settings.php:1289 inc/customizer/settings.php:1628
+#: inc/customizer/settings.php:3520
+msgid "Text Color"
+msgstr ""
+
+#: inc/customizer/settings.php:1290 inc/customizer/settings.php:1629
+#: inc/customizer/settings.php:3521
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer/settings.php:1291 inc/customizer/settings.php:1630
+#: inc/customizer/settings.php:3522
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer/settings.php:1352
+msgid "Prebuilt Header"
+msgstr ""
+
+#: inc/customizer/settings.php:1353
+msgid "Select a prebuilt header present"
+msgstr ""
+
+#: inc/customizer/settings.php:1369
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customizer/settings.php:1370
+msgid "Enable sticky header for your site."
+msgstr ""
+
+#: inc/customizer/settings.php:1377
+msgid "Enable menu cutoff"
+msgstr ""
+
+#: inc/customizer/settings.php:1391
+msgid "Menu cutoff up to"
+msgstr ""
+
+#: inc/customizer/settings.php:1415
+msgid "Menu cutoff text"
+msgstr ""
+
+#: inc/customizer/settings.php:1434
+msgid "Enable Trending Keywords"
+msgstr ""
+
+#: inc/customizer/settings.php:1449
+msgid "Trending Keywords"
+msgstr ""
+
+#: inc/customizer/settings.php:1469 inc/customizer/settings.php:1486
+msgid "Header Widgets"
+msgstr ""
+
+#: inc/customizer/settings.php:1470
+msgid ""
+"Click the \"Add Widget\" button to add available widgets to your Header. "
+"Click the down arrow icon to expand widget options."
+msgstr ""
+
+#: inc/customizer/settings.php:1496
+msgid "Inline"
+msgstr ""
+
+#: inc/customizer/settings.php:1497
+msgid "Expand"
+msgstr ""
+
+#: inc/customizer/settings.php:1631
+msgid "Link Active Color"
+msgstr ""
+
+#: inc/customizer/settings.php:1697
+msgid "Choose blog layout."
+msgstr ""
+
+#: inc/customizer/settings.php:1717
+msgid "Masonry blog"
+msgstr ""
+
+#: inc/customizer/settings.php:1718 inc/customizer/settings.php:1734
+msgid ""
+"This will affect blog layout on archives, search results and posts page."
+msgstr ""
+
+#: inc/customizer/settings.php:1733
+msgid "Align center"
+msgstr ""
+
+#: inc/customizer/settings.php:1750
+msgid "Layout Column"
+msgstr ""
+
+#: inc/customizer/settings.php:1751
+msgid ""
+"Choose blog layout Column. This will affect blog layout on archives, search "
+"results and posts page."
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: inc/customizer/settings.php:1754 inc/customizer/settings.php:2840
+#: inc/customizer/settings.php:3020
+msgid "Full width"
+msgstr ""
+
+#: inc/customizer/settings.php:1755 inc/customizer/settings.php:2841
+#: inc/customizer/settings.php:3021
+msgid "1/2"
+msgstr ""
+
+#: inc/customizer/settings.php:1756 inc/customizer/settings.php:2842
+#: inc/customizer/settings.php:3022
+msgid "1/3"
+msgstr ""
+
+#: inc/customizer/settings.php:1757 inc/customizer/settings.php:2843
+#: inc/customizer/settings.php:3023
+msgid "1/4"
+msgstr ""
+
+#: inc/customizer/settings.php:1772 inc/customizer/settings.php:2343
+msgid "Title Font Size"
+msgstr ""
+
+#: inc/customizer/settings.php:1773 inc/customizer/settings.php:2344
+msgid "Specify post title font size."
+msgstr ""
+
+#: inc/customizer/settings.php:1804 inc/customizer/settings.php:2394
+#: inc/customizer/settings.php:2709 inc/customizer/settings.php:3305
+#: inc/customizer/settings.php:3728
+msgid "Post Meta"
+msgstr ""
+
+#: inc/customizer/settings.php:1805 inc/customizer/settings.php:3729
+msgid "Select meta for post."
+msgstr ""
+
+#: inc/customizer/settings.php:1810 inc/customizer/settings.php:3734
+msgid "Author Name"
+msgstr ""
+
+#: inc/customizer/settings.php:1811 inc/customizer/settings.php:3735
+msgid "Author Avatar"
+msgstr ""
+
+#: inc/customizer/settings.php:1812 inc/customizer/settings.php:3736
+msgid "Date"
+msgstr ""
+
+#: inc/customizer/settings.php:1813 inc/customizer/settings.php:2056
+#: inc/customizer/settings.php:2226 inc/customizer/settings.php:2593
+#: inc/customizer/settings.php:3224 inc/customizer/settings.php:3738
+msgid "Category"
+msgstr ""
+
+#: inc/customizer/settings.php:1815 inc/customizer/settings.php:3740
+msgid "Reading Time"
+msgstr ""
+
+#: inc/customizer/settings.php:1825
+msgid "Show Read More Button"
+msgstr ""
+
+#: inc/customizer/settings.php:1842
+msgid "Change Read More Text."
+msgstr ""
+
+#: inc/customizer/settings.php:1863
+msgid "For each post in a feed, include "
+msgstr ""
+
+#: inc/customizer/settings.php:1866
+msgid "Full text"
+msgstr ""
+
+#: inc/customizer/settings.php:1867
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/settings.php:1883 inc/customizer/settings.php:2421
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/settings.php:1884 inc/customizer/settings.php:2422
+msgid "Number of words displayed in the excerpt."
+msgstr ""
+
+#: inc/customizer/settings.php:1910
+msgid "Excerpt More"
+msgstr ""
+
+#: inc/customizer/settings.php:1911
+msgid "What to append to excerpt if the text is cut."
+msgstr ""
+
+#: inc/customizer/settings.php:1941
+msgid "Enable Ticker Section"
+msgstr ""
+
+#: inc/customizer/settings.php:1949 inc/customizer/settings.php:2493
+#: inc/customizer/settings.php:2707 inc/customizer/settings.php:2754
+#: inc/customizer/settings.php:2934 inc/customizer/settings.php:3108
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/settings.php:1965
+msgid "Devices where the Ticker News is displayed."
+msgstr ""
+
+#: inc/customizer/settings.php:1986 inc/customizer/settings.php:2148
+#: inc/customizer/settings.php:2545 inc/customizer/settings.php:2893
+#: inc/customizer/settings.php:3068 inc/customizer/settings.php:3145
+msgid "Enable On: "
+msgstr ""
+
+#: inc/customizer/settings.php:1987
+msgid "Choose on which pages you want to enable Ticker News."
+msgstr ""
+
+#: inc/customizer/settings.php:1991 inc/customizer/settings.php:2158
+#: inc/customizer/settings.php:2555 inc/customizer/settings.php:2898
+#: inc/customizer/settings.php:3073 inc/customizer/settings.php:3155
+msgid "Archive Page"
+msgstr ""
+
+#: inc/customizer/settings.php:1992 inc/customizer/settings.php:2161
+#: inc/customizer/settings.php:2558 inc/customizer/settings.php:2899
+#: inc/customizer/settings.php:3074 inc/customizer/settings.php:3158
+msgid "Search Page"
+msgstr ""
+
+#: inc/customizer/settings.php:2009 inc/customizer/settings.php:2195
+#: inc/customizer/settings.php:3193
+msgid "Post Number"
+msgstr ""
+
+#: inc/customizer/settings.php:2010
+msgid "Set the number of posts to show."
+msgstr ""
+
+#: inc/customizer/settings.php:2035
+msgid "Speed"
+msgstr ""
+
+#: inc/customizer/settings.php:2036
+msgid "Set the speed of the ticker."
+msgstr ""
+
+#: inc/customizer/settings.php:2057 inc/customizer/settings.php:2227
+#: inc/customizer/settings.php:2594 inc/customizer/settings.php:3225
+msgid "Display posts from selected category only. Leave empty to include all."
+msgstr ""
+
+#: inc/customizer/settings.php:2081 inc/customizer/settings.php:2388
+#: inc/customizer/settings.php:2703 inc/customizer/settings.php:3300
+msgid "Post Elements"
+msgstr ""
+
+#: inc/customizer/settings.php:2082 inc/customizer/settings.php:2389
+#: inc/customizer/settings.php:2704 inc/customizer/settings.php:3301
+msgid "Set order and visibility for post elements."
+msgstr ""
+
+#: inc/customizer/settings.php:2084
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/customizer/settings.php:2085
+msgid "Post Details"
+msgstr ""
+
+#: inc/customizer/settings.php:2086
+msgid "Play / Pause"
+msgstr ""
+
+#: inc/customizer/settings.php:2118
+msgid "Enable Hero Section"
+msgstr ""
+
+#: inc/customizer/settings.php:2127
+msgid "Devices where the Hero is displayed."
+msgstr ""
+
+#: inc/customizer/settings.php:2149
+msgid "Choose on which pages you want to enable Hero. "
+msgstr ""
+
+#: inc/customizer/settings.php:2180 inc/customizer/settings.php:2578
+#: inc/customizer/settings.php:3178
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/settings.php:2196 inc/customizer/settings.php:3194
+msgid "Set the number of visible posts."
+msgstr ""
+
+#: inc/customizer/settings.php:2250 inc/customizer/settings.php:3248
+msgid "Tags"
+msgstr ""
+
+#: inc/customizer/settings.php:2251 inc/customizer/settings.php:3249
+msgid "Display posts from selected tags only."
+msgstr ""
+
+#: inc/customizer/settings.php:2274 inc/customizer/settings.php:2675
+#: inc/customizer/settings.php:3272
+msgid "Orderby"
+msgstr ""
+
+#: inc/customizer/settings.php:2275 inc/customizer/settings.php:2676
+#: inc/customizer/settings.php:3273
+msgid "Show post orderby DESC/ASC."
+msgstr ""
+
+#: inc/customizer/settings.php:2277 inc/customizer/settings.php:2678
+#: inc/customizer/settings.php:3275
+msgid "Newest - Oldest"
+msgstr ""
+
+#: inc/customizer/settings.php:2278 inc/customizer/settings.php:2679
+#: inc/customizer/settings.php:3276
+msgid "Oldest - Newest"
+msgstr ""
+
+#: inc/customizer/settings.php:2279 inc/customizer/settings.php:2680
+#: inc/customizer/settings.php:3277
+msgid "A - Z"
+msgstr ""
+
+#: inc/customizer/settings.php:2280 inc/customizer/settings.php:2681
+#: inc/customizer/settings.php:3278
+msgid "Z - A"
+msgstr ""
+
+#: inc/customizer/settings.php:2281 inc/customizer/settings.php:2682
+#: inc/customizer/settings.php:3279
+msgid "Random"
+msgstr ""
+
+#: inc/customizer/settings.php:2317
+msgid "Height"
+msgstr ""
+
+#: inc/customizer/settings.php:2318
+msgid "Set the height of the container."
+msgstr ""
+
+#: inc/customizer/settings.php:2392 inc/customizer/settings.php:2708
+#: inc/customizer/settings.php:3304
+msgid "Categories"
+msgstr ""
+
+#: inc/customizer/settings.php:2393
+msgid "Post Excerpt"
+msgstr ""
+
+#: inc/customizer/settings.php:2447
+msgid "Hero page"
+msgstr ""
+
+#: inc/customizer/settings.php:2462
+msgid "Select a page"
+msgstr ""
+
+#: inc/customizer/settings.php:2463
+msgid "Content of the selected page will be shown instead of the slider."
+msgstr ""
+
+#: inc/customizer/settings.php:2485
+msgid "Enable Stories"
+msgstr ""
+
+#: inc/customizer/settings.php:2524 inc/customizer/settings.php:2872
+#: inc/customizer/settings.php:3047 inc/customizer/settings.php:3124
+msgid "Devices where the Posts You Might Like is displayed."
+msgstr ""
+
+#: inc/customizer/settings.php:2546 inc/customizer/settings.php:3146
+msgid "Choose on which pages you want to enable Posts You Might Like. "
+msgstr ""
+
+#: inc/customizer/settings.php:2616
+msgid "Number of max category"
+msgstr ""
+
+#: inc/customizer/settings.php:2645
+msgid "Max number of inner items"
+msgstr ""
+
+#: inc/customizer/settings.php:2745
+msgid "Enable featured category"
+msgstr ""
+
+#: inc/customizer/settings.php:2770 inc/customizer/settings.php:2950
+msgid "Choose featured style type"
+msgstr ""
+
+#: inc/customizer/settings.php:2772 inc/customizer/settings.php:2952
+msgid "Style One"
+msgstr ""
+
+#: inc/customizer/settings.php:2773 inc/customizer/settings.php:2953
+msgid "Style Two"
+msgstr ""
+
+#: inc/customizer/settings.php:2797 inc/customizer/settings.php:2978
+msgid "[live_title]"
+msgstr ""
+
+#: inc/customizer/settings.php:2804
+msgid "Select category"
+msgstr ""
+
+#: inc/customizer/settings.php:2809 inc/customizer/settings.php:2989
+#: inc/customizer/settings.php:3494
+msgid "Image"
+msgstr ""
+
+#: inc/customizer/settings.php:2837 inc/customizer/settings.php:3017
+msgid "Column"
+msgstr ""
+
+#: inc/customizer/settings.php:2838 inc/customizer/settings.php:3018
+msgid "Select column"
+msgstr ""
+
+#: inc/customizer/settings.php:2844 inc/customizer/settings.php:3024
+msgid "1/5"
+msgstr ""
+
+#: inc/customizer/settings.php:2894
+msgid "Choose on which pages you want to enable Featured Category."
+msgstr ""
+
+#: inc/customizer/settings.php:2925
+msgid "Enable featured links"
+msgstr ""
+
+#: inc/customizer/settings.php:2954
+msgid "Style Three"
+msgstr ""
+
+#: inc/customizer/settings.php:2977
+msgid "Featured Link"
+msgstr ""
+
+#: inc/customizer/settings.php:2980
+msgid "Add new Feature"
+msgstr ""
+
+#: inc/customizer/settings.php:2985
+msgid "Select feature link"
+msgstr ""
+
+#: inc/customizer/settings.php:3069
+msgid "Choose on which pages you want to enable Featured links."
+msgstr ""
+
+#: inc/customizer/settings.php:3100
+msgid "Enable Posts You Might Like Section"
+msgstr ""
+
+#: inc/customizer/settings.php:3340
+msgid "Advertisement Widget"
+msgstr ""
+
+#: inc/customizer/settings.php:3347
+msgid "Before Header"
+msgstr ""
+
+#: inc/customizer/settings.php:3348
+msgid "After Header"
+msgstr ""
+
+#: inc/customizer/settings.php:3349
+msgid "Before post archive"
+msgstr ""
+
+#: inc/customizer/settings.php:3350
+msgid "Random post archives"
+msgstr ""
+
+#: inc/customizer/settings.php:3351
+msgid "Before post content"
+msgstr ""
+
+#: inc/customizer/settings.php:3352
+msgid "After post content"
+msgstr ""
+
+#: inc/customizer/settings.php:3353
+msgid "Before footer"
+msgstr ""
+
+#: inc/customizer/settings.php:3354
+msgid "After footer"
+msgstr ""
+
+#: inc/customizer/settings.php:3380
+msgid "Column Layout"
+msgstr ""
+
+#: inc/customizer/settings.php:3381
+msgid "Choose your site&rsquo;s footer column layout."
+msgstr ""
+
+#: inc/customizer/settings.php:3386
+msgid "1/4 + 1/4 + 1/4 + 1/4"
+msgstr ""
+
+#: inc/customizer/settings.php:3390
+msgid "1/3 + 1/3 + 1/3"
+msgstr ""
+
+#: inc/customizer/settings.php:3394
+msgid "2/3 + 1/3"
+msgstr ""
+
+#: inc/customizer/settings.php:3398
+msgid "1/3 + 2/3"
+msgstr ""
+
+#: inc/customizer/settings.php:3402
+msgid "2/3 + 1/4 + 1/4"
+msgstr ""
+
+#: inc/customizer/settings.php:3406
+msgid "1/4 + 1/4 + 2/3"
+msgstr ""
+
+#: inc/customizer/settings.php:3410
+msgid "1/2 + 1/2"
+msgstr ""
+
+#: inc/customizer/settings.php:3414
+msgid "1"
+msgstr ""
+
+#: inc/customizer/settings.php:3456
+msgid "Footer Copyright"
+msgstr ""
+
+#: inc/customizer/settings.php:3463
+msgid "Back to Top Button"
+msgstr ""
+
+#: inc/customizer/settings.php:3464
+msgid "Enable or disable back to top button."
+msgstr ""
+
+#: inc/customizer/settings.php:3583
+msgid "Single Page Sidebar Position"
+msgstr ""
+
+#: inc/customizer/settings.php:3597
+msgid "Single Post Sidebar Position"
+msgstr ""
+
+#: inc/customizer/settings.php:3611
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: inc/customizer/settings.php:3624
+msgid "WooCommerce Shop Sidebar Position"
+msgstr ""
+
+#: inc/customizer/settings.php:3636
+msgid "WooCommerce Archive Sidebar Position"
+msgstr ""
+
+#: inc/customizer/settings.php:3737
+msgid "Updated Date"
+msgstr ""
+
+#: inc/customizer/settings.php:3748
+msgid "Standard Post Layout"
+msgstr ""
+
+#: inc/customizer/settings.php:3749
+msgid ""
+"Select default layout for standard posts. You can customize settings for "
+"each layout below."
+msgstr ""
+
+#: inc/customizer/settings.php:3757
+msgid "Layout 1: Fit Image"
+msgstr ""
+
+#: inc/customizer/settings.php:3771
+msgid "Layout 1: Full Height Image"
+msgstr ""
+
+#: inc/customizer/settings.php:3785
+msgid "Layout 2: Disable Image"
+msgstr ""
+
+#: inc/customizer/settings.php:3809
+msgid "Enable dark mode for your site."
+msgstr ""
+
+#: inc/customizer/settings.php:3816
+msgid "Default Scheme"
+msgstr ""
+
+#: inc/customizer/settings.php:3818
+msgid "Light"
+msgstr ""
+
+#: inc/customizer/settings.php:3819
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer/settings.php:3820
+msgid "Base on Device"
+msgstr ""
+
+#: inc/customizer/settings.php:3834
+msgid "Always Dark Mode"
+msgstr ""
+
+#: inc/customizer/settings.php:3835
+msgid "Always load site in dark style and disable the dark mode switcher."
+msgstr ""
+
+#: inc/customizer/settings.php:3860
+msgid "Show breadcrumb bar."
+msgstr ""
+
+#: inc/customizer/settings.php:3866
+msgid "Breadcrumb Schema"
+msgstr ""
+
+#: inc/customizer/settings.php:3867
+msgid "Output breadcrumb structure data."
+msgstr ""
+
+#: inc/customizer/ui/plugin-install-helper/class-blogsy-customizer-plugin-install-helper.php:102
+msgid "Install and activate"
+msgstr ""
+
+#: inc/customizer/ui/plugin-install-helper/class-blogsy-customizer-plugin-install-helper.php:126
+msgid "Jetpack Portfolio"
+msgstr ""
+
+#: inc/customizer/ui/plugin-install-helper/class-blogsy-customizer-plugin-install-helper.php:165
+msgid "Activating "
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:38
+msgid "Advertisements"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:44
+#: inc/customizer/widgets/class-blogsy-customizer-widget-text.php:38
+msgid "Text widget content goes here..."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:78
+msgid "Ad type"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:85
+msgid "Banner"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:88
+msgid "AdSense"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:96
+#: inc/customizer/widgets/class-blogsy-customizer-widget-text.php:57
+msgid "Content"
+msgstr ""
+
+#. translators: %1$s is opening anchor tag, %2$s is a closing anchor tag.
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:103
+#: inc/customizer/widgets/class-blogsy-customizer-widget-text.php:64
+msgid "Shortcodes and basic html elements allowed."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:125
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:140
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:80
+msgid "URL"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:147
+msgid "Banner URL"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:152
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:92
+msgid "Open link in"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:165
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:105
+msgid "Same Tab"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:179
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:119
+msgid "New Tab"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-advertisements.php:188
+msgid "Show on:"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:52
+msgid "Button"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:53
+msgid "A button with custom link."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:68
+#: inc/customizer/widgets/class-blogsy-customizer-widget-text.php:32
+msgid "Text"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:75
+msgid "Button Text"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:87
+msgid "Button URL"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-button.php:145
+msgid "Additional class"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-darkmode.php:43
+msgid "Dark mode"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-darkmode.php:44
+msgid "A dark mode for your site."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-nav.php:41
+msgid "Navigation"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-nav.php:42
+msgid "Add a navigation menu."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-nav.php:61
+msgctxt "Widget"
+msgid "Select Menu:"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-nav.php:65
+msgctxt "Widget"
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-nav.php:81
+#, php-format
+msgid "No menus found: %1$sCreate a new menu?%2$s"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-search.php:44
+msgid "A search form for your site."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-socials.php:53
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-socials.php:54
+msgid "Links to your social media profiles."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget-text.php:33
+msgid "Arbitrary text."
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget.php:160
+msgid "Edit widget:"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget.php:186
+msgid "Widget Location"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget.php:214
+msgid "Visibility"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget.php:235
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/widgets/class-blogsy-customizer-widget.php:238
+msgid "Done"
+msgstr ""
+
+#: inc/functions.php:284
+msgid "Nothing found!"
+msgstr ""
+
+#: inc/functions.php:285 template-parts/404-default.php:21
+msgid "It looks like nothing was found here!"
+msgstr ""
+
+#: inc/hooks.php:447 inc/hooks.php:533
+msgid "No stories found"
+msgstr ""
+
+#: inc/starter-content.php:41
+msgid "Archives"
+msgstr ""
+
+#: inc/starter-content.php:68
+msgid "Blog"
+msgstr ""
+
+#: inc/starter-content.php:94
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template-tags.php:285 inc/template-tags.php:468
+msgid "Menu not assigned"
+msgstr ""
+
+#: inc/template-tags.php:289 inc/template-tags.php:472
+msgid "Assign a menu"
+msgstr ""
+
+#: inc/template-tags.php:366
+msgid "Toggle Dark Mode"
+msgstr ""
+
+#: inc/template-tags.php:411
+msgid "Add Button Text"
+msgstr ""
+
+#: inc/template-tags.php:543
+msgid "Click here to assign a widget."
+msgstr ""
+
+#: inc/template-tags.php:867
+msgid "By"
+msgstr ""
+
+#. translators: %s: human time difference.
+#: inc/template-tags.php:924
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: inc/theme-setup.php:232
+msgid "Primary menu"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/theme-setup.php:291
+msgid "Blogsy"
+msgstr ""
+
+#: inc/theme-setup.php:302
+msgid "Morphing Shape"
+msgstr ""
+
+#: inc/theme-setup.php:325
+msgid "Style 3"
+msgstr ""
+
+#: inc/theme-setup.php:335
+msgid "Checkmark"
+msgstr ""
+
+#: inc/theme-setup.php:339
+msgid "Arrow List"
+msgstr ""
+
+#: inc/theme-setup.php:349
+msgid "Drop Shadow Hover"
+msgstr ""
+
+#: inc/theme-setup.php:562
+msgid "Default Sidebar Widgets"
+msgstr ""
+
+#. translators: 1, 2, 3, 4.
+#: inc/theme-setup.php:584
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#. translators: 1st, 2nd, 3rd, 4th.
+#: inc/theme-setup.php:587
+#, php-format
+msgid "Widgets in this area are displayed in the %s footer column."
+msgstr ""
+
+#: patterns/about-us-01.php:26
+msgid "About Us"
+msgstr ""
+
+#. translators: %1$s is the highlighted phrase (e.g. "Thrilled").
+#: patterns/about-us-01.php:35
+#, php-format
+msgid "Hey %1$s to Meet You 👋"
+msgstr ""
+
+#: patterns/about-us-01.php:37
+msgctxt "Pattern highlighted word."
+msgid "Thrilled"
+msgstr ""
+
+#: patterns/about-us-01.php:45
+msgctxt "pattern dummy  text"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, quam "
+"id gravida rutrum, neque odio ultrices sem, at posuere lorem metus a augue. "
+"Vestibulum ac dui sed sem dignissim lobortis. Nullam suscipit aliquet erat "
+"ut efficitur. Nulla suscipit ullamcorper nulla ut bibendum. Suspendisse sed "
+"urna eget enim dictum cursus. Donec ultricies odio eget turpis rhoncus, quis "
+"pretium nisl vestibulum. Etiam nec pretium turpis, in consequat dui."
+msgstr ""
+
+#: patterns/about-us-01.php:50
+msgctxt "pattern dummy  text"
+msgid "Vivamus id neque id turpis fermentum ornare in ac arcu."
+msgstr ""
+
+#: patterns/about-us-01.php:54 patterns/about-us-01.php:58
+msgctxt "pattern dummy  text"
+msgid "In sit amet urna congue, viverra nunc sed, tincidunt ligula."
+msgstr ""
+
+#: patterns/about-us-01.php:62
+msgctxt "pattern dummy  text"
+msgid "Morbi tempor metus nec felis lobortis."
+msgstr ""
+
+#: patterns/about-us-01.php:68
+msgctxt "Pattern button text"
+msgid "Connect with us"
+msgstr ""
+
+#: patterns/about-us-01.php:72
+msgctxt "Pattern button text"
+msgid "Call Now"
+msgstr ""
+
+#. translators: %1$s is the highlighted phrase (e.g. "Thrilled").
+#: patterns/about-us-02.php:21
+#, php-format
+msgid "What Makes Us %1$s"
+msgstr ""
+
+#: patterns/about-us-02.php:23
+msgctxt "Pattern highlighted word."
+msgid "Different"
+msgstr ""
+
+#: patterns/about-us-02.php:50
+msgctxt "pattern dummy text"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum "
+"facilisis elit lorem. Phasellus at sollicitudin urna, quis convallis massa. "
+"Sed vitae tincidunt lorem. In bibendum neque ac dolor fermentum semper id "
+"nec nulla. Suspendisse risus urna, faucibus eget tortor at, placerat "
+"pellentesque felis. In facilisis rutrum massa quis porttitor. Proin ac massa "
+"in orci imperdiet ullamcorper. Nulla egestas cursus nunc vel aliquam."
+msgstr ""
+
+#: patterns/about-us-02.php:56
+msgctxt "pattern dummy text"
+msgid ""
+"Sed fringilla odio et sem varius semper nec ultricies mauris. Pellentesque "
+"ut metus eget felis congue auctor. Duis eleifend neque non tellus tincidunt "
+"semper. Curabitur sodales augue faucibus ligula tincidunt, nec sodales erat "
+"blandit. Morbi et tempus nunc. Interdum et malesuada fames ac ante ipsum "
+"primis in faucibus. Vestibulum facilisis sit amet sem non imperdiet. Vivamus "
+"auctor mauris et ultrices blandit."
+msgstr ""
+
+#: patterns/author-widget.php:29
+msgctxt "author bio"
+msgid ""
+"Hey, I'm Alex. I build frontend experiences and dive into tech, business, "
+"and wellness."
+msgstr ""
+
+#: patterns/author-widget.php:43
+msgctxt "section heading"
+msgid "Work Experience"
+msgstr ""
+
+#: patterns/author-widget.php:51
+msgctxt "company name"
+msgid "Peregrine Themes"
+msgstr ""
+
+#: patterns/author-widget.php:55
+msgctxt "job title"
+msgid "Frontend Developer"
+msgstr ""
+
+#: patterns/author-widget.php:60
+msgctxt "employment period"
+msgid "2021-present"
+msgstr ""
+
+#: patterns/author-widget.php:67
+msgctxt "company name"
+msgid "Quilvex Horizon"
+msgstr ""
+
+#: patterns/author-widget.php:71
+msgctxt "job title"
+msgid "Web Developer"
+msgstr ""
+
+#: patterns/author-widget.php:76
+msgctxt "employment period"
+msgid "2019-2021"
+msgstr ""
+
+#: patterns/author-widget.php:83
+msgctxt "company name"
+msgid "Kryvion Pulse"
+msgstr ""
+
+#: patterns/author-widget.php:87
+msgctxt "job title"
+msgid "Support Specialist"
+msgstr ""
+
+#: patterns/author-widget.php:92
+msgctxt "employment period"
+msgid "2017-2019"
+msgstr ""
+
+#: patterns/author-widget.php:99
+msgid "Available for Hire"
+msgstr ""
+
+#: patterns/author-widget.php:105
+msgctxt "button label"
+msgid "Get In Touch"
+msgstr ""
+
+#: patterns/call-to-action.php:21
+msgctxt "cta banner subtitle"
+msgid "News Banner"
+msgstr ""
+
+#. translators: %1$s is the highlighted phrase (e.g. "Journey").
+#: patterns/call-to-action.php:30
+#, php-format
+msgid "Ready to Start Your %1$s with Us?"
+msgstr ""
+
+#: patterns/call-to-action.php:32
+msgctxt "Pattern highlighted word."
+msgid "Journey"
+msgstr ""
+
+#: patterns/call-to-action.php:39
+msgctxt "Pattern dummy text"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+msgstr ""
+
+#: patterns/call-to-action.php:45
+msgctxt "pattern cta button"
+msgid "Explore Now"
+msgstr ""
+
+#: patterns/call-to-action.php:53
+msgctxt "pattern cta text"
+msgid "Advertisement"
+msgstr ""
+
+#: patterns/featured-items.php:17
+msgctxt "Pattern heading"
+msgid "Featured Categories"
+msgstr ""
+
+#: patterns/featured-items.php:22 patterns/post-list-02.php:22
+msgctxt "Pattern button label"
+msgid "See all"
+msgstr ""
+
+#: patterns/featured-items.php:37
+msgid "Music"
+msgstr ""
+
+#: patterns/featured-items.php:42 patterns/featured-items.php:62
+#: patterns/featured-items.php:82 patterns/featured-items.php:102
+#: patterns/featured-items.php:122
+msgctxt "Number of posts"
+msgid "4 Post"
+msgstr ""
+
+#: patterns/featured-items.php:57 patterns/hero.php:65
+msgid "Travel"
+msgstr ""
+
+#: patterns/featured-items.php:77
+msgid "Food"
+msgstr ""
+
+#: patterns/featured-items.php:97
+msgid "Lifestyle"
+msgstr ""
+
+#: patterns/featured-items.php:117
+msgid "Photography"
+msgstr ""
+
+#. translators: %s is the person name, e.g., 'Alex'.
+#: patterns/hero-with-image.php:22
+#, php-format
+msgctxt "Pattern placeholder text."
+msgid "Hi, I'm %s 👋"
+msgstr ""
+
+#: patterns/hero-with-image.php:23
+msgctxt "Example person name."
+msgid "Alex"
+msgstr ""
+
+#. translators: %1$s is the designation name, e.g., 'web creator', %2$s is the city name, e.g., 'Austin'.
+#: patterns/hero-with-image.php:34
+#, php-format
+msgctxt "Pattern placeholder text."
+msgid ""
+"I'm a %1$s based in %2$s. I enjoy building interfaces that feel smooth, "
+"fast, and human. This little corner of the internet is where I write, share "
+"ideas, and experiment with code."
+msgstr ""
+
+#: patterns/hero-with-image.php:35
+msgctxt "Example designation name."
+msgid "web creator"
+msgstr ""
+
+#: patterns/hero-with-image.php:36
+msgctxt "Example city name."
+msgid "Austin"
+msgstr ""
+
+#: patterns/hero-with-image.php:44
+msgctxt "Button text for hero pattern."
+msgid "Explore Blog"
+msgstr ""
+
+#: patterns/hero-with-image.php:48
+msgctxt "Button text for hero pattern."
+msgid "Subscribe"
+msgstr ""
+
+#. translators: %1$s is the highlighted phrase (e.g. "Reflections").
+#: patterns/hero.php:22
+#, php-format
+msgid "Heartfelt %1$s: Journeys of Love,<br>Loss &amp; Renewal"
+msgstr ""
+
+#: patterns/hero.php:24
+msgctxt "Pattern highlighted word."
+msgid "Reflections"
+msgstr ""
+
+#: patterns/hero.php:33
+msgctxt "Pattern hero description."
+msgid ""
+"Discover thoughtful writing that speaks to the heart ❤️ stories that inspire "
+"growth, <br>celebrate connection, and remind us of the beauty in change."
+msgstr ""
+
+#: patterns/hero.php:45
+msgid "EXPLORE TRENDING TOPICS"
+msgstr ""
+
+#: patterns/hero.php:55
+msgid "Technology"
+msgstr ""
+
+#: patterns/hero.php:75
+msgid "Sports"
+msgstr ""
+
+#: patterns/hero.php:85
+msgid "Trends"
+msgstr ""
+
+#: patterns/hero.php:95
+msgid "Money"
+msgstr ""
+
+#: patterns/hero.php:105
+msgid "Creativity"
+msgstr ""
+
+#: patterns/hero.php:115
+msgid "Hot"
+msgstr ""
+
+#: patterns/hero.php:125
+msgid "Business"
+msgstr ""
+
+#: patterns/hero.php:135
+msgid "News"
+msgstr ""
+
+#: patterns/info-items.php:23
+msgctxt "pattern info box title"
+msgid "Innovative Excellence"
+msgstr ""
+
+#: patterns/info-items.php:27 patterns/info-items.php:43
+#: patterns/info-items.php:59
+msgctxt "pattern info box dummy text"
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod "
+"tempor."
+msgstr ""
+
+#: patterns/info-items.php:39
+msgctxt "pattern info box title"
+msgid "Community Focus"
+msgstr ""
+
+#: patterns/info-items.php:55
+msgctxt "pattern info box title"
+msgid "Agile & Adaptive"
+msgstr ""
+
+#: patterns/post-list-01.php:31 patterns/post-list-03.php:44
+msgctxt "post author label"
+msgid "By"
+msgstr ""
+
+#: patterns/post-list-01.php:71
+msgid "No posts found."
+msgstr ""
+
+#: patterns/post-list-02.php:17
+msgctxt "Pattern section title"
+msgid "Editor's Pick"
+msgstr ""
+
+#: patterns/post-list-02.php:42 patterns/post-slider-02.php:41
+msgctxt "post date prefix"
+msgid "on"
+msgstr ""
+
+#: patterns/post-list-03.php:17
+msgctxt "Pattern heading"
+msgid "Latest Articles"
+msgstr ""
+
+#: patterns/post-list-03.php:22
+msgctxt "Button text"
+msgid "See all"
+msgstr ""
+
+#: patterns/post-slider-01.php:34 patterns/post-slider-02.php:34
+msgctxt "post author prefix"
+msgid "By"
+msgstr ""
+
+#: patterns/recent-post-widget.php:24
+msgctxt "widget title"
+msgid "Recent Posts"
+msgstr ""
+
+#: patterns/trending-items.php:16
+msgid "Technologies"
+msgstr ""
+
+#: patterns/trending-items.php:30
+msgctxt "example of technologies"
+msgid "HTML"
+msgstr ""
+
+#: patterns/trending-items.php:42
+msgctxt "example of technologies"
+msgid "CSS3"
+msgstr ""
+
+#: patterns/trending-items.php:54
+msgctxt "example of technologies"
+msgid "JavaScript"
+msgstr ""
+
+#: patterns/trending-items.php:66
+msgctxt "example of technologies"
+msgid "ReacJS"
+msgstr ""
+
+#: patterns/trending-items.php:78
+msgctxt "example of technologies"
+msgid "WordPress"
+msgstr ""
+
+#: patterns/trending-items.php:90
+msgctxt "example of technologies"
+msgid "Gutenberg"
+msgstr ""
+
+#: patterns/trending-items.php:102
+msgctxt "pattern button label"
+msgid "Explore All"
+msgstr ""
+
+#: searchform.php:18
+msgid "Search ..."
+msgstr ""
+
+#: single.php:47
+msgid "Updated on "
+msgstr ""
+
+#: template-parts/404-default.php:19
+msgid "404"
+msgstr ""
+
+#: template-parts/404-default.php:22
+msgid "Return to Home Page"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:29
+msgid "Browse Category"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:32
+msgid "Browse Tag"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:35
+#: template-parts/archive/archive-title.php:38
+#: template-parts/archive/archive-title.php:47
+#: template-parts/archive/archive-title.php:50
+msgid "Browse"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:41
+msgid "Search Result for"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:44
+#: template-parts/post/author-box.php:26
+msgid "Author"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:46
+msgid "Our Articles"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:99
+msgid "Articles"
+msgstr ""
+
+#: template-parts/archive/archive-title.php:101
+msgid "Article"
+msgstr ""
+
+#. translators: 1: Number of posts.
+#: template-parts/featured-category/featured-category-one.php:95
+#, php-format
+msgid "%d Post"
+msgid_plural "%d Posts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: template-parts/header/widgets/popular-search.php:41
+msgid "Trending Now:"
+msgstr ""
+
+#: template-parts/header/widgets/popup-search-content.php:16
+msgid "Close search"
+msgstr ""
+
+#: template-parts/header/widgets/search.php:25
+msgid "Open search popup"
+msgstr ""
+
+#: template-parts/hero/hero-one.php:59
+#: template-parts/post/content/content-blog-cover.php:117
+#: template-parts/post/content/content-blog-horizontal.php:105
+msgid ""
+"This content is password protected. To view it please go to the post page "
+"and enter the password."
+msgstr ""
+
+#: template-parts/hero/hero-one.php:70
+#, php-format
+msgctxt "post date prefix"
+msgid "%1$sOn%2$s"
+msgstr ""
+
+#: template-parts/post/author-box.php:36
+msgid "Follow Me"
+msgstr ""
+
+#: template-parts/post/content/content-blog-cover.php:74
+#: template-parts/post/content/content-blog-horizontal.php:90
+#: template-parts/post/hero/title-section.php:88
+msgid "Min Read"
+msgstr ""
+
+#: template-parts/post/content/content-blog-cover.php:76
+#: template-parts/post/content/content-blog-horizontal.php:92
+#: template-parts/post/hero/title-section.php:90
+msgid "1 Min Read"
+msgstr ""
+
+#: template-parts/post/content/content-blog-cover.php:105
+msgid "on "
+msgstr ""
+
+#: template-parts/post/content/content-blog-horizontal.php:70
+#: template-parts/post/hero/title-section.php:69
+msgid "By "
+msgstr ""
+
+#: template-parts/post/hero/title-section.php:99
+msgid "Views"
+msgstr ""
+
+#: template-parts/post/next-prev-posts.php:68
+msgid "Previous"
+msgstr ""
+
+#: template-parts/post/next-prev-posts.php:106
+msgid "Next"
+msgstr ""
+
+#: template-parts/post/tags.php:19
+msgid "Tags:"
+msgstr ""
+
+#: template-parts/pyml/pyml-one.php:42
+#: template-parts/stories/stories-one.php:54
+msgid "Item Link"
+msgstr ""
+
+#: template-parts/stories/stories-one.php:80
+msgid "Story"
+msgid_plural "Stories"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Description of the plugin/theme
+msgid ""
+"Blogsy is a modern, high-performance WordPress theme designed for bloggers, "
+"news publishers, and content creators who demand style and flexibility. "
+"Effortlessly shape your site with built-in support for the powerful "
+"Gutenberg block editor, ready-made block patterns, and seamless Elementor "
+"integration. Choose from multiple header styles, flexible layouts (left, "
+"right, or no sidebar), and eye-catching grid or masonry blog designs to make "
+"your content shine. Enjoy dark mode, unique sidebar widget patterns, and an "
+"array of customization options to create a site that matches your vision. "
+"Fully compatible with WooCommerce for building online stores and lighting-"
+"fast for the best user experience. With Blogsy, launching a beautiful, "
+"professional website has never been easier, import demo content in just one "
+"click and start publishing today."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Peregrine Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://peregrine-themes.com/"
+msgstr ""

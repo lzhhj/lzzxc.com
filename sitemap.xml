@@ -6,6 +6,12 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>https://www.lzzxc.com/2026/11/20/how-do-i-maintain-my-bicycle-chainain/</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.lzzxc.com/2026/11/14/rear-derailleurs-the-complete-guide/</loc>
     <lastmod>2026-11-14</lastmod>
     <changefreq>monthly</changefreq>
@@ -2391,6 +2397,11 @@
     <priority>0.4</priority>
   </url>
   <url>
+    <loc>https://www.lzzxc.com/tag/bicycle-chain-maintenance/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
     <loc>https://www.lzzxc.com/tag/bicycle-chain-repair/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
@@ -2642,6 +2653,16 @@
   </url>
   <url>
     <loc>https://www.lzzxc.com/tag/century-training/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.lzzxc.com/tag/chain-cleaning/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://www.lzzxc.com/tag/chain-lubrication/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
